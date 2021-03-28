@@ -88,3 +88,6 @@ C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.dll

@@ -1,8 +1,11 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotDiggetyDog.Controllers
 {
@@ -17,21 +20,31 @@ namespace HotDiggetyDog.Controllers
         }
         [HttpGet]
 
-        public ActionResult<IEnumerable<User>> Get()
+        public async Task<ActionResult<IEnumerable<User>>> Get()
         {
-            return context.Users.ToList();
+            return await context.Users.ToListAsync();
+        }
+
+        [HttpGet("{Id}")]
+        public async Task<ActionResult<User>>Get(Guid Id)
+        {
+           var user  = await context.Users.FindAsync(Id);
+            if (user == null)
+                return NotFound();
+           return user;
         }
 
         [HttpPost]
-        public ActionResult Add()
+        public async Task<ActionResult>InsertUser(User newUser)
         {
-            User u = new User()
+            bool existsEmail = context.Users.Any(b => b.Email == newUser.Email);
+            if (!existsEmail)
             {
-                Email = "a",
-                Username = "c"
-            };
-            context.Users.Add(u);
-            return Ok();
+                context.Users.Add(newUser);
+                await context.SaveChangesAsync();
+                return CreatedAtAction("Get", new { Id = newUser.Id }, newUser);
+            }
+                return UnprocessableEntity("Email already exists");      
         }
     }
 }
