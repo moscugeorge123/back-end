@@ -1,5 +1,7 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.Entities;
+using HotDiggetyDog.Models;
+using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,12 +16,24 @@ namespace HotDiggetyDog.Controllers
     public class UsersController : ControllerBase
     {
         private readonly DataContext context;
-        public UsersController(DataContext context)
+        private IUserService _userService;
+        public UsersController(DataContext context,IUserService userService)
         {
             this.context = context;
+            _userService = userService;
+        }
+       
+        [HttpPost("authenticate")]
+        public IActionResult Authenticate(AuthenticateRequest model)
+        {
+            var response = _userService.Authenticate(model);
+
+            if (response == null)
+                return BadRequest(new { message = "Username or password is incorrect" });
+
+            return Ok(response);
         }
         [HttpGet]
-
         public async Task<ActionResult<IEnumerable<User>>> Get()
         {
             return await context.Users.ToListAsync();

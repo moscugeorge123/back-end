@@ -1,4 +1,6 @@
 using HotDiggetyDog.Data;
+using HotDiggetyDog.Helpers;
+using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +26,13 @@ namespace HotDiggetyDog
         {
             services.AddDbContext<DataContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
             services.AddControllers();
+            services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
+
+            // configure DI for application services
+            services.AddScoped<IUserService, UserService>();
+            //add Swagger
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,6 +42,14 @@ namespace HotDiggetyDog
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseRouting();
 
@@ -42,6 +59,7 @@ namespace HotDiggetyDog
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }
