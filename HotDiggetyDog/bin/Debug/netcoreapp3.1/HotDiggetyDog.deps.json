@@ -31,10 +31,12 @@
     ".NETCoreApp,Version=v3.1": {
       "HotDiggetyDog/1.0.0": {
         "dependencies": {
+          "EntityFramework": "5.0.0",
           "Microsoft.Bcl.Async": "1.0.168",
           "Microsoft.EntityFrameworkCore.Design": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
           "SQLite": "3.13.0",
           "Swashbuckle": "5.2.1",
           "Swashbuckle.AspNetCore": "6.1.1",
@@ -312,6 +314,17 @@
         },
         "compile": {
           "HotDiggetyDog.dll": {}
+        }
+      },
+      "EntityFramework/5.0.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20627.0"
+          }
+        },
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -600,6 +613,11 @@
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.4"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -3417,6 +3435,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "EntityFramework/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WYfgJWKg/RjwU8pzZkImD9DsV+J1nqDcIGp1S0/bdnElKBmAaUC2nmq/QQAcco32KyQQWnLgJNiDzIOz2xWFbQ==",
+      "path": "entityframework/5.0.0",
+      "hashPath": "entityframework.5.0.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -3556,6 +3581,13 @@
       "sha512": "sha512-wFn6lYyezhTIWpEB85NYn0TmVs0GiTQBbgKxK4/BmeEXBoLdltOngosey1u9t1+c2xjxuis1V7fP3wcLVSf+jg==",
       "path": "microsoft.entityframeworkcore.sqlserver/5.0.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ldiZtmhBXJBvBHLUUglCL2n0RFoaXwR3fnvY0Tn0U70V4gafA2ny7vf1d/Gh4ai9qyj/wVJOj4RN8HAy4wjqTw==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",

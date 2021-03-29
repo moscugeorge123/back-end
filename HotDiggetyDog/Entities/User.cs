@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 
 namespace HotDiggetyDog.Entities
 {
@@ -11,7 +12,8 @@ namespace HotDiggetyDog.Entities
 
         public string Email { get; set; }
 
-        private string Password { get; set; }
+        
+        public  string Password { get; set; }
         
     }
 }

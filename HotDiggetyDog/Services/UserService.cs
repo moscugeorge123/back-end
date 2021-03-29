@@ -30,7 +30,7 @@ namespace HotDiggetyDog.Services
         }
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
-            var user = _dataContext.Users.Where(s => s.Username == model.Username ).FirstOrDefault();
+            var user = _dataContext.Users.Where(s => s.Username == model.Username && s.Password==model.Password ).FirstOrDefault();
 
             
 
