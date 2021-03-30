@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyAppTests\\HotDiggetyDogTests.csproj": {}
+    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyAppTests\\HotDiggetyDogTests.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyAppTests\\HotDiggetyDogTests.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
         "projectName": "HotDiggetyDogTests",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyAppTests\\HotDiggetyDogTests.csproj",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
         "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyAppTests\\obj\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,6 +119,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Bcl.Async": {
               "target": "Package",
               "version": "[1.0.168, )"
@@ -137,9 +141,23 @@
               "target": "Package",
               "version": "[5.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "SQLite": {
               "target": "Package",
               "version": "[3.13.0, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
             }
           },
           "imports": [

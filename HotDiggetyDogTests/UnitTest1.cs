@@ -14,7 +14,7 @@ namespace HotDiggetyDogTests
         public async Task ExistentEmailTest()
         {
             string apiUrl = "http://localhost:58776/api/users/";
-            User user = new User() { Email = "andrei6@gmail.com" };
+            User user = new User() { Email = "andrei56@gmail.com" };
             var userJSON = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
             var httpclient = new HttpClient();
 
@@ -22,6 +22,7 @@ namespace HotDiggetyDogTests
 
             var responseAsString = response.Content.ReadAsStringAsync();
             string expectedResponse = "Email already exists";
+            
             Assert.AreEqual(responseAsString.Result, expectedResponse,"The email doesn't exist");
 
         }

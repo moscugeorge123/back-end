@@ -1,0 +1,19 @@
+_
+VC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Controllers\UsersController.csutf-8T
+KC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Data\DataContext.csutf-8p
+gC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Data\Migrations\20210329175824_InitialCreate.csutf-8{
+pC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Data\Migrations\20210329175824_InitialCreate.Designer.csutf-8n
+cC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Data\Migrations\DataContextModelSnapshot.csutf-8T
+KC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Entities\Product.csutf-8Q
+HC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Entities\User.csutf-8W
+NC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Helpers\AppSettings.csutf-8^
+UC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Helpers\AuthorizeAttribute.csutf-8Y
+PC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Helpers\JwtMiddleware.csutf-8^
+UC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Models\AuthenticateRequest.csutf-8_
+VC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Models\AuthenticateResponse.csutf-8K
+BC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Program.csutf-8X
+OC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Services\UserService.csutf-8K
+BC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\Startup.csutf-8‰
+~C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8x
+mC:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\netcoreapp3.1\HotDiggetyDog.AssemblyInfo.csutf-8Œ
+€C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\netcoreapp3.1\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.csutf-8
