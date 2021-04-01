@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x7ROvJwuMj1+4DbZFYcxjwfnpuviD1z1h6vfpbt8ObgZV+2MkxW7TsK7ch3cjQVU2VVyraNoFL2g6pKzeMyF6A==",
+  "success": true,
+  "projectFilePath": "D:\\.net\\HotDiggetyDOg\\facebook\\facebookApp\\facebookApp\\facebookApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
