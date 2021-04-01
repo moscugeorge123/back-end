@@ -32,8 +32,8 @@ namespace HotDiggetyDog.Services
         {
             var user = _dataContext.Users.Where(s => s.Username == model.Username && s.Password==model.Password ).FirstOrDefault();
 
-            
 
+            var user2 = 2;
             // return null if user not found
             if (user == null) return null;
 
