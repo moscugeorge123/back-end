@@ -1,0 +1,6 @@
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\obj\Debug\netcoreapp3.1\Persistence.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\Persistence\bin\Debug\netcoreapp3.1\Domain.dll

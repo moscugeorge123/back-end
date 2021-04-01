@@ -27,7 +27,6 @@ namespace HotDiggetyDog
             services.AddDbContext<DataContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
             services.AddControllers();
             services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
-
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
             //add Swagger

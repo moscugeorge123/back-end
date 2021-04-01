@@ -1,0 +1,5 @@
+C:\Users\Andrei\Desktop\HDD repo\back-end\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo\back-end\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\Application\bin\Debug\netcoreapp3.1\Domain.dll
