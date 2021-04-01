@@ -10,6 +10,7 @@ namespace HotDiggetyDogTests
     [TestClass]
     public class UserControllerTests
     {
+        int a;
         [TestMethod]
         public async Task ExistentEmailTest()
         {
