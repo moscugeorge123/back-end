@@ -1,4 +1,4 @@
-using HotDiggetyDog.Entities;
+﻿using HotDiggetyDog
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using System.Net.Http;
@@ -10,7 +10,6 @@ namespace HotDiggetyDogTests
     [TestClass]
     public class UserControllerTests
     {
-        int a;
         [TestMethod]
         public async Task ExistentEmailTest()
         {
@@ -23,13 +22,13 @@ namespace HotDiggetyDogTests
 
             var responseAsString = response.Content.ReadAsStringAsync();
             string expectedResponse = "Email already exists";
-            
-            Assert.AreEqual(responseAsString.Result, expectedResponse,"The email doesn't exist");
+
+            Assert.AreEqual(responseAsString.Result, expectedResponse, "The email doesn't exist");
 
         }
         public void Main(string[] args)
         {
-            
+
 
         }
     }
