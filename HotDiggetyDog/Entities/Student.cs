@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace HotDiggetyDog.Entities
+#nullable disable
+
+namespace Entities
 {
-    public class Student
+    public partial class Student
     {
         public Student()
         {
-            this.Courses = new HashSet<Course>();
+            CourseStudents = new HashSet<CourseStudent>();
         }
-        public int StudentId{ get; set; }
-        [Required]
-        public string Name{ get; set; }
-        public virtual ICollection<Course> Courses { get; set; }
+
+        public long StudentId { get; set; }
+        public string Name { get; set; }
+
+        public virtual ICollection<CourseStudent> CourseStudents { get; set; }
     }
 }

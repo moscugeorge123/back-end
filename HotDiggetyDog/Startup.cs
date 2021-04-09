@@ -1,4 +1,4 @@
-using HotDiggetyDog.Data;
+using Data;
 using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Builder;
@@ -24,7 +24,7 @@ namespace HotDiggetyDog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
+            services.AddDbContext<hotdogappContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
             services.AddControllers();
             services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
 

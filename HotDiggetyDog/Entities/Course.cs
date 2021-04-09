@@ -1,21 +1,22 @@
-﻿using System;
+﻿using HotDiggetyDog;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-namespace HotDiggetyDog.Entities
+namespace Entities
 {
-    public class Course
+    public partial class Course
     {
         public Course()
         {
-            this.Students = new HashSet<Student>();
+            CourseStudents = new HashSet<CourseStudent>();
         }
-        public int CourseId{ get; set; }
-        [Required]
-        public string Name { get; set; }
 
-        public virtual ICollection<Student> Students { get; set; }
+        public long CourseId { get; set; }
+        public string Name { get; set; }
+        [JsonIgnore]
+
+        public virtual ICollection<CourseStudent> CourseStudents { get; set; }
     }
 }

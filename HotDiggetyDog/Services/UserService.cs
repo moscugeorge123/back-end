@@ -1,5 +1,5 @@
-﻿using HotDiggetyDog.Data;
-using HotDiggetyDog.Entities;
+﻿using Data;
+using Entities;
 using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Models;
 using Microsoft.Extensions.Options;
@@ -21,9 +21,9 @@ namespace HotDiggetyDog.Services
     }
     public class UserService:IUserService
     {
-        private readonly DataContext _dataContext;
+        private readonly hotdogappContext _dataContext;
         private readonly AppSettings _appSettings;
-        public UserService(DataContext dataContext, IOptions<AppSettings> appSettings)
+        public UserService(hotdogappContext dataContext, IOptions<AppSettings> appSettings)
         {
             _dataContext = dataContext;
             _appSettings = appSettings.Value;
