@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
+    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
+    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "projectUniqueName": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
         "projectName": "HotDiggetyDogTests",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\obj\\",
+        "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
-                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
+              "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+                "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
               }
             }
           }
@@ -43,24 +43,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.7.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[1.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -71,41 +53,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "projectUniqueName": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
         "projectName": "HotDiggetyDog",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\obj\\",
+        "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -116,9 +90,17 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -147,6 +129,14 @@
               "target": "Package",
               "version": "[5.0.4, )"
             },
+            "Microsoft.Exchange.WebServices": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
             "SQLite": {
               "target": "Package",
               "version": "[3.13.0, )"
@@ -158,6 +148,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.1.1, )"
+            },
+            "latticework.cs": {
+              "target": "Package",
+              "version": "[1.0.16, )"
             }
           },
           "imports": [
@@ -178,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

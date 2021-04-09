@@ -27,10 +27,6 @@ namespace HotDiggetyDogTests
             Assert.AreEqual(responseAsString.Result, expectedResponse,"The email doesn't exist");
 
         }
-        public void Main(string[] args)
-        {
-            
-
-        }
+        
     }
 }

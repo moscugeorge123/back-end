@@ -1,4 +1,7 @@
+using AutoMapper;
 using HotDiggetyDog.Data;
+using HotDiggetyDog.DTOs;
+using HotDiggetyDog.Entities;
 using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Builder;
@@ -30,9 +33,14 @@ namespace HotDiggetyDog
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICharacterSkillService, CharacterSkillService>();
             //add Swagger
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+            
+            services.AddAutoMapper(typeof(Startup));
+     
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -208,3 +208,14 @@ C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
 C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\netcoreapp3.1\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.BusinessLogic.EF.EF5.Net45.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.BusinessLogic.Net45.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.ComponentModel.DataAnnotations.Net45.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.Core.Net451.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.DirectoryServices.Net45.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Lw.EntityFramework.EF5.Net45.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\latticework.cs.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.Auth.dll
+D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDog\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.dll

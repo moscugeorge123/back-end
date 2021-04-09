@@ -16,7 +16,7 @@ namespace HotDiggetyDog.Controllers
     public class UsersController : ControllerBase
     {
         private readonly DataContext context;
-        private IUserService _userService;
+        private readonly IUserService _userService;
         public UsersController(DataContext context,IUserService userService)
         {
             this.context = context;
@@ -45,7 +45,7 @@ namespace HotDiggetyDog.Controllers
            var user  = await context.Users.FindAsync(Id);
             if (user == null)
                 return NotFound();
-           return user;
+           return Ok(user);
         }
 
         [HttpPost]
