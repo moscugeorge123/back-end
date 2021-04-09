@@ -12,117 +12,51 @@
       },
       "results": [
         {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo/back-end/HotDiggetyDog/Program.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 18,
-                  "endLine": 6,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\0\\Google.Protobuf.dll' could not be found"
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_userService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo/back-end/HotDiggetyDog/Controllers/UsersController.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 30,
-                  "endLine": 19,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\0\\SonarAnalyzer.CFG.dll' could not be found"
         },
         {
-          "ruleId": "S4834",
-          "level": "warning",
-          "message": "Make sure controlling this permission is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo/back-end/HotDiggetyDog/Services/UserService.cs",
-                "region": {
-                  "startLine": 52,
-                  "startColumn": 27,
-                  "endLine": 52,
-                  "endColumn": 92
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\0\\SonarAnalyzer.CSharp.dll' could not be found"
+        },
+        {
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\0\\SonarAnalyzer.dll' could not be found"
+        },
+        {
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\1\\Google.Protobuf.dll' could not be found"
+        },
+        {
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\1\\SonarAnalyzer.dll' could not be found"
+        },
+        {
+          "ruleId": "CS0006",
+          "level": "error",
+          "message": "Metadata file 'C:\\Users\\Andrei\\AppData\\Local\\Temp\\.sonarqube\\resources\\1\\SonarAnalyzer.VisualBasic.dll' could not be found"
         }
       ],
       "rules": {
-        "S1118": {
-          "id": "S1118",
-          "shortDescription": "Utility classes should not have public constructors",
-          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+        "CS0006": {
+          "id": "CS0006",
+          "defaultLevel": "error",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Compiler",
             "isEnabledByDefault": true,
             "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S4834": {
-          "id": "S4834",
-          "shortDescription": "Controlling permissions is security-sensitive",
-          "fullDescription": "The access control of an application must be properly implemented in order to restrict access to resources to authorized entities otherwise this could lead to vulnerabilities:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4834",
-          "properties": {
-            "category": "Minor Security Hotspot",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
+              "Compiler",
+              "Telemetry",
               "NotConfigurable"
             ]
           }
