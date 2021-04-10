@@ -1,7 +1,4 @@
-using AutoMapper;
 using HotDiggetyDog.Data;
-
-using HotDiggetyDog.Entities;
 using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Builder;

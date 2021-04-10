@@ -1,11 +1,7 @@
 ﻿using HotDiggetyDog.Data;
-
 using HotDiggetyDog.Entities;
-using HotDiggetyDog.Models;
-using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,29 +9,25 @@ using System.Threading.Tasks;
 namespace HotDiggetyDog.Controllers
 {
     [ApiController]
-    [Route("api/products")]
-    public class ProductController: ControllerBase
+    [Route("api/Products")]
+    public class ProductController : ControllerBase
     {
         private readonly DataContext context;
-        
+
         public ProductController(DataContext context)
         {
             this.context = context;
-            
+
         }
         [HttpGet("{Id}")]
-        public async Task<ActionResult<Product>> Get(Guid Id)
+        public async Task<ActionResult<Product>> Get(int Id)
         {
             var product = await context.Products.FindAsync(Id);
             if (product == null)
                 return NotFound();
             return Ok(product);
         }
-        /*[HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> Get()
-        {
-            return await context.Products.ToListAsync();
-        }*/
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> Get()
         {
@@ -46,7 +38,7 @@ namespace HotDiggetyDog.Controllers
         {
 
             bool existsProduct = this.context.Products.Any(p => p.Id == product.Id);
-            if(!existsProduct)
+            if (!existsProduct)
             {
                 context.Products.Add(product);
                 await context.SaveChangesAsync();
@@ -55,42 +47,66 @@ namespace HotDiggetyDog.Controllers
             }
             return UnprocessableEntity("Product already exists");
 
-            
-            
+
+
         }
-        
+
     }
 
-    [Route("api/ingredientFromProducts")]
-    public class IngredientFromProductController : ControllerBase
+    [ApiController]
+    [Route("api/IngredientsForProducts")]
+    public class IngredientsForProductsController : ControllerBase
     {
-        private readonly DataContext context;
-
-        public IngredientFromProductController(DataContext context)
+        private readonly DataContext _dataContext;
+        public IngredientsForProductsController(DataContext dataContext)
         {
-            this.context = context;
+            _dataContext = dataContext;
+        }
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<IngredientsFromProduct>>> Get()
+        {
+            return Ok(await _dataContext.IngredientsFromProducts.ToListAsync());
+        }
+        [HttpPost]
+        public async Task<ActionResult> Add(IngredientsFromProduct ingredient)
+        {
+            bool existsIngredient = _dataContext.IngredientsFromProducts.Any(p => p.Id == ingredient.Id);
+            if (!existsIngredient)
+            {
+                _dataContext.IngredientsFromProducts.Add(ingredient);
+                await _dataContext.SaveChangesAsync();
+                return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
+
+            }
+            return UnprocessableEntity("Product already exists");
 
         }
-
-
-
-        
-        
     }
-    [Route("api/ingredientFromProductsProducts")]
-    public class IngredientFromProductProductController : ControllerBase
+    [ApiController]
+    [Route("api/JoinProductIngredient")]
+    public class JoinProductIngredientController : ControllerBase
     {
-        private readonly DataContext context;
-
-        public IngredientFromProductProductController(DataContext context)
+        private readonly DataContext _dataContext;
+        public JoinProductIngredientController(DataContext dataContext)
         {
-            this.context = context;
-
+            _dataContext = dataContext;
+        }
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<IngredientFromProductProduct>>> Get()
+        {
+            return Ok(await _dataContext.IngredientFromProductProducts.ToListAsync());
+        }
+        [HttpPost]
+        public async Task<ActionResult>Add(IngredientFromProductProduct relation)
+        {
+            bool alreadyExists = _dataContext.IngredientFromProductProducts.Any(s => s.ProductsId == relation.ProductsId && s.IngredientsId == relation.IngredientsId);
+            if (alreadyExists)
+                return UnprocessableEntity();
+            await _dataContext.IngredientFromProductProducts.AddAsync(relation);
+            await _dataContext.SaveChangesAsync();
+            return CreatedAtAction("Get", new { ProductId = relation.ProductsId, IngredientId = relation.IngredientsId },relation);
         }
 
-
-
-       
     }
 
 }
