@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
+    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
   },
   "projects": {
-    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
         "projectName": "HotDiggetyDogTests",
-        "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
-        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDogTests\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDogTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
-                "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
+              "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
               }
             }
           }
@@ -53,21 +53,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
         "projectName": "HotDiggetyDog",
-        "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\HotDiggetyDog\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

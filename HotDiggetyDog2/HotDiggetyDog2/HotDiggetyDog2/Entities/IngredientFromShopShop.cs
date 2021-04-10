@@ -8,6 +8,7 @@ namespace HotDiggetyDog.Entities
     {
         public int IngredientsId { get; set; }
         public int ShopsId { get; set; }
+        public int Quantity { get; set; }
 
         [JsonIgnore]
         public virtual IngredientsFromShop Ingredients { get; set; }

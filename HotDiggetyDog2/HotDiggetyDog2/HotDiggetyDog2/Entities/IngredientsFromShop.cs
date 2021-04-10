@@ -12,10 +12,8 @@ namespace HotDiggetyDog.Entities
         }
 
         public int Id { get; set; }
-        public int Quantity { get; set; }
         public double Price { get; set; }
         public string Name { get; set; }
-
         public virtual ICollection<IngredientFromShopShop> IngredientFromShopShops { get; set; }
     }
 }

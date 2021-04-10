@@ -4623,19 +4623,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "projectName": "NUnitTestProject1",
-      "projectPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\NUnitTestProject1\\NUnitTestProject1.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\HotDiggetyDOg\\back-end\\back-end\\NUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\NUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4689,7 +4689,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
