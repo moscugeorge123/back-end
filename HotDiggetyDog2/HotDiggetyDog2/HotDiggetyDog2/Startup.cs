@@ -15,6 +15,7 @@ namespace HotDiggetyDog
 {
     public class Startup
     {
+        private readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         private readonly IConfiguration configuration;
         public Startup(IConfiguration configuration)
         {
@@ -33,6 +34,14 @@ namespace HotDiggetyDog
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins, builder =>
+                {
+                    
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
 
             //add Swagger
             // Register the Swagger generator, defining 1 or more Swagger documents
@@ -60,7 +69,7 @@ namespace HotDiggetyDog
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseRouting();
 
             app.UseAuthorization();
