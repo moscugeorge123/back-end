@@ -15,7 +15,7 @@ namespace HotDiggetyDog2.Controllers
         private readonly DataContext _context;
         public ShopController(DataContext context)
         {
-            _context = context; 
+            _context = context;
 
         }
         [HttpGet]
@@ -34,7 +34,7 @@ namespace HotDiggetyDog2.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult>Add(Shop shop)
+        public async Task<ActionResult> Add(Shop shop)
         {
             bool alreadyExists = _context.Shops.Any(s => s.Id == shop.Id);
             if (alreadyExists)
@@ -64,7 +64,7 @@ namespace HotDiggetyDog2.Controllers
         public async Task<ActionResult<IngredientsFromShop>> Get(int Id)
         {
             IngredientsFromShop ifs = await _context.IngredientsFromShops.FindAsync(Id);
-            if(ifs == null)
+            if (ifs == null)
             {
                 return NotFound();
             }
@@ -83,7 +83,7 @@ namespace HotDiggetyDog2.Controllers
         }
     }
     [ApiController]
-    [Route("{api/JoinShopIngredient")]
+    [Route("api/JoinShopIngredient")]
     public class JoinShopIngredientController : ControllerBase
     {
 
