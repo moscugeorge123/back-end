@@ -1,8 +1,8 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -21,7 +21,7 @@ namespace HotDiggetyDog2.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Shop>>> Get()
         {
-            return Ok(await _context.Shops.ToListAsync());
+            return await _context.Shops.ToListAsync();
         }
 
         [HttpGet("{Id}")]
@@ -48,10 +48,10 @@ namespace HotDiggetyDog2.Controllers
     }
     [ApiController]
     [Route("api/IngredientsForShops")]
-    public class IngredientsForShops : ControllerBase
+    public class IngredientsForShopsController : ControllerBase
     {
         DataContext _context;
-        public IngredientsForShops(DataContext context)
+        public IngredientsForShopsController(DataContext context)
         {
             _context = context;
         }
