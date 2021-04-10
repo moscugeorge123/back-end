@@ -63,23 +63,23 @@ namespace HotDiggetyDog2.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<IngredientsFromShop>> Get(int Id)
         {
-            IngredientsFromShop ifs = await _context.IngredientsFromShops.FindAsync(Id);
-            if (ifs == null)
+            IngredientsFromShop ingredient = await _context.IngredientsFromShops.FindAsync(Id);
+            if (ingredient == null)
             {
                 return NotFound();
             }
-            return Ok(ifs);
+            return Ok(ingredient);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Add(IngredientsFromShop ifs)
+        public async Task<ActionResult> Add(IngredientsFromShop ingredient)
         {
-            bool alreadyExists = _context.IngredientsFromShops.Any(s => s.Id == ifs.Id);
+            bool alreadyExists = _context.IngredientsFromShops.Any(i => i.Id == ingredient.Id);
             if (alreadyExists)
                 return UnprocessableEntity();
-            await _context.IngredientsFromShops.AddAsync(ifs);
+            await _context.IngredientsFromShops.AddAsync(ingredient);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("Get", new { Id = ifs.Id }, ifs);
+            return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
         }
     }
     [ApiController]

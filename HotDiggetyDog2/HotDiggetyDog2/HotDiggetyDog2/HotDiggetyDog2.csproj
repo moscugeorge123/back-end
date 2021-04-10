@@ -6,12 +6,16 @@
 
   <ItemGroup>
     <Compile Remove="DTOs\**" />
+    <Compile Remove="Entities22\**" />
     <Compile Remove="Mappings\**" />
     <Content Remove="DTOs\**" />
+    <Content Remove="Entities22\**" />
     <Content Remove="Mappings\**" />
     <EmbeddedResource Remove="DTOs\**" />
+    <EmbeddedResource Remove="Entities22\**" />
     <EmbeddedResource Remove="Mappings\**" />
     <None Remove="DTOs\**" />
+    <None Remove="Entities22\**" />
     <None Remove="Mappings\**" />
   </ItemGroup>
 
@@ -19,6 +23,7 @@
     <Compile Remove="Controllers\CharacterSkillController.cs" />
     <Compile Remove="Services\CharacterSkillService.cs" />
     <Compile Remove="Services\ICharacterSkillService.cs" />
+    <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,10 +47,6 @@
     <PackageReference Include="SQLite" Version="3.13.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Entities22\" />
   </ItemGroup>
 
 </Project>

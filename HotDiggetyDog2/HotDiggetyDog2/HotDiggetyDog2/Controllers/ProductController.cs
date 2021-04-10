@@ -1,7 +1,10 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +16,6 @@ namespace HotDiggetyDog.Controllers
     public class ProductController : ControllerBase
     {
         private readonly DataContext context;
-
         public ProductController(DataContext context)
         {
             this.context = context;
@@ -31,6 +33,9 @@ namespace HotDiggetyDog.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> Get()
         {
+            //string callingUrl = Request.GetTypedHeaders().Referer.ToString();
+            //string callingUrl = HttpContext.Request.GetTypedHeaders().Referer.ToString();
+            //return  Ok(callingUrl);
             return await context.Products.ToListAsync();
         }
         [HttpPost]
