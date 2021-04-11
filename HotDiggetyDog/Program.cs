@@ -1,7 +1,8 @@
+using HotDiggetyDog;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace HotDiggetyDog
+namespace HotDiggetyDog2
 {
     public class Program
     {

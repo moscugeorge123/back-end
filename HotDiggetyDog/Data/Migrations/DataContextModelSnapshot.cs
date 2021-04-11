@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace HotDiggetyDog.Data.Migrations
+namespace HotDiggetyDog2.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -14,50 +14,56 @@ namespace HotDiggetyDog.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.4");
+                .HasAnnotation("ProductVersion", "6.0.0-preview.1.21102.2");
 
-            modelBuilder.Entity("HotDiggetyDog.Entities.Character", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientFromProductProduct", b =>
+                {
+                    b.Property<int>("IngredientsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("IngredientsId", "ProductsId");
+
+                    b.HasIndex(new[] { "ProductsId" }, "IX_IngredientFromProductProduct_ProductsId");
+
+                    b.ToTable("IngredientFromProductProduct");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientFromShopShop", b =>
+                {
+                    b.Property<int>("IngredientsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ShopsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("IngredientsId", "ShopsId");
+
+                    b.HasIndex(new[] { "ShopsId" }, "IX_IngredientFromShopShop_ShopsId");
+
+                    b.ToTable("IngredientFromShopShop");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientsFromProduct", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Defense")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("HitPoints")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Intelligence")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("Strength")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Characters");
+                    b.ToTable("IngredientsFromProduct");
                 });
 
-            modelBuilder.Entity("HotDiggetyDog.Entities.CharacterSkill", b =>
-                {
-                    b.Property<int>("CharacterId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("SkillId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("CharacterId", "SkillId");
-
-                    b.HasIndex("SkillId");
-
-                    b.ToTable("CharacterSkills");
-                });
-
-            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientFromProduct", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientsFromShop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -66,12 +72,12 @@ namespace HotDiggetyDog.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("Price")
+                    b.Property<double>("Price")
                         .HasColumnType("REAL");
 
                     b.HasKey("Id");
 
-                    b.ToTable("IngredientFromProducts");
+                    b.ToTable("IngredientsFromShop");
                 });
 
             modelBuilder.Entity("HotDiggetyDog.Entities.Product", b =>
@@ -83,13 +89,13 @@ namespace HotDiggetyDog.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("Discount")
+                    b.Property<double>("Discount")
                         .HasColumnType("REAL");
 
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("Price")
+                    b.Property<double>("Price")
                         .HasColumnType("REAL");
 
                     b.HasKey("Id");
@@ -97,21 +103,24 @@ namespace HotDiggetyDog.Data.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("HotDiggetyDog.Entities.Skill", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.Shop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Damage")
-                        .HasColumnType("INTEGER");
+                    b.Property<double>("LocationX")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("LocationY")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Skills");
+                    b.ToTable("Shops");
                 });
 
             modelBuilder.Entity("HotDiggetyDog.Entities.User", b =>
@@ -134,63 +143,62 @@ namespace HotDiggetyDog.Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("IngredientFromProductProduct", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientFromProductProduct", b =>
                 {
-                    b.Property<int>("IngredientsId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("IngredientsId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("IngredientFromProductProduct");
-                });
-
-            modelBuilder.Entity("HotDiggetyDog.Entities.CharacterSkill", b =>
-                {
-                    b.HasOne("HotDiggetyDog.Entities.Character", "Character")
-                        .WithMany("CharacterSkills")
-                        .HasForeignKey("CharacterId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("HotDiggetyDog.Entities.Skill", "Skill")
-                        .WithMany("CharacterSkills")
-                        .HasForeignKey("SkillId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Character");
-
-                    b.Navigation("Skill");
-                });
-
-            modelBuilder.Entity("IngredientFromProductProduct", b =>
-                {
-                    b.HasOne("HotDiggetyDog.Entities.IngredientFromProduct", null)
-                        .WithMany()
+                    b.HasOne("HotDiggetyDog.Entities.IngredientsFromProduct", "Ingredients")
+                        .WithMany("IngredientFromProductProducts")
                         .HasForeignKey("IngredientsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HotDiggetyDog.Entities.Product", null)
-                        .WithMany()
+                    b.HasOne("HotDiggetyDog.Entities.Product", "Products")
+                        .WithMany("IngredientFromProductProducts")
                         .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Ingredients");
+
+                    b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("HotDiggetyDog.Entities.Character", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientFromShopShop", b =>
                 {
-                    b.Navigation("CharacterSkills");
+                    b.HasOne("HotDiggetyDog.Entities.IngredientsFromShop", "Ingredients")
+                        .WithMany("IngredientFromShopShops")
+                        .HasForeignKey("IngredientsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HotDiggetyDog.Entities.Shop", "Shops")
+                        .WithMany("IngredientFromShopShops")
+                        .HasForeignKey("ShopsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredients");
+
+                    b.Navigation("Shops");
                 });
 
-            modelBuilder.Entity("HotDiggetyDog.Entities.Skill", b =>
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientsFromProduct", b =>
                 {
-                    b.Navigation("CharacterSkills");
+                    b.Navigation("IngredientFromProductProducts");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.IngredientsFromShop", b =>
+                {
+                    b.Navigation("IngredientFromShopShops");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.Product", b =>
+                {
+                    b.Navigation("IngredientFromProductProducts");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.Shop", b =>
+                {
+                    b.Navigation("IngredientFromShopShops");
                 });
 #pragma warning restore 612, 618
         }

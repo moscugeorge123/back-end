@@ -1,17 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+
+#nullable disable
 
 namespace HotDiggetyDog.Entities
 {
-    public class Shop
+    public partial class Shop
     {
-        public Guid Id { get; set; }
-        public float LocationX { get; set; }
-        public float LocationY { get; set; }
-        public string Name { get; set; }
-        public IList<IngredientFromShop> IngredientsLists { get; set; }
+        public Shop()
+        {
+            IngredientFromShopShops = new HashSet<IngredientFromShopShop>();
+        }
 
+        public int Id { get; set; }
+        public double LocationX { get; set; }
+        public double LocationY { get; set; }
+        public string Name { get; set; }
+        
+        public virtual ICollection<IngredientFromShopShop> IngredientFromShopShops { get; set; }
     }
 }

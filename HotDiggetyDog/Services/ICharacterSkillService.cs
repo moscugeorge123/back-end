@@ -13,5 +13,6 @@ namespace HotDiggetyDog.Services
     {
         Task<ServiceResponse<GetCharacterDto>> AddCharacterSkill(AddCharacterSkillDto newCharacterSkill);
         Task<ServiceResponse<GetCharacterDto>> GetCharacterById(int id);
+        IEnumerable<GetCharacterDto> GetAll();
     }
 }

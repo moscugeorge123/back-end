@@ -74,5 +74,22 @@ namespace HotDiggetyDog.Services
             serviceResponse.Data = _mapper.Map<GetCharacterDto>(dbCharacter);
             return serviceResponse;
         }
+        public IEnumerable<GetCharacterDto> GetAll()
+        {
+            var characters = _context.Characters
+                .Include(c => c.CharacterSkills).ThenInclude(cs => cs.Skill).AsEnumerable();
+
+            ServiceResponse<GetCharacterDto> serviceResponse = new ServiceResponse<GetCharacterDto>();
+            List<Object> list = new List<Object>();
+            foreach (var character in characters)
+            {
+                serviceResponse.Data = _mapper.Map<GetCharacterDto>(character);
+                list.Add(serviceResponse.Data);
+
+            }
+            return (IEnumerable<GetCharacterDto>)list.AsEnumerable();
+        }
+
+        
     }
 }

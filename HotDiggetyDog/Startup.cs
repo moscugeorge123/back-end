@@ -1,7 +1,4 @@
-using AutoMapper;
 using HotDiggetyDog.Data;
-using HotDiggetyDog.DTOs;
-using HotDiggetyDog.Entities;
 using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Builder;
@@ -15,6 +12,7 @@ namespace HotDiggetyDog
 {
     public class Startup
     {
+        private readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         private readonly IConfiguration configuration;
         public Startup(IConfiguration configuration)
         {
@@ -22,7 +20,7 @@ namespace HotDiggetyDog
             
         }
 
-        
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -33,13 +31,23 @@ namespace HotDiggetyDog
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<ICharacterSkillService, CharacterSkillService>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins, builder =>
+                {
+                    
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
             //add Swagger
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+        
             
-            services.AddAutoMapper(typeof(Startup));
-     
+           
+
+
 
         }
 
@@ -58,7 +66,7 @@ namespace HotDiggetyDog
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseRouting();
 
             app.UseAuthorization();
