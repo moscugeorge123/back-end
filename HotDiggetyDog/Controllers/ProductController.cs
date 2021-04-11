@@ -110,7 +110,7 @@ namespace HotDiggetyDog.Controllers
         {
             _context = context;
         }
-        [HttpGet]
+        /*[HttpGet]
         public async Task<ActionResult<IEnumerable<GetIngredientDto>>> Get()
         {
             List<GetIngredientDto> ingredients = await _context
@@ -118,7 +118,7 @@ namespace HotDiggetyDog.Controllers
                 .Select(i => new GetIngredientDto() { Id = i.Id, Name = i.Name })
                 .ToListAsync();
             return Ok(ingredients);
-        }
+        }*/
         [HttpPost]
         public async Task<ActionResult> Add(IngredientsFromProduct ingredient)
         {
@@ -141,11 +141,11 @@ namespace HotDiggetyDog.Controllers
         {
             _dataContext = dataContext;
         }
-        [HttpGet]
+        /*[HttpGet]
         public async Task<ActionResult<IEnumerable<IngredientFromProductProduct>>> Get()
         {
             return Ok(await _dataContext.IngredientFromProductProducts.ToListAsync());
-        }
+        }*/
         [HttpPost]
         public async Task<ActionResult> Add(IngredientFromProductProduct relation)
         {
