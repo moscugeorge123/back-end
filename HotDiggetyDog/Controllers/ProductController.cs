@@ -133,11 +133,11 @@ namespace HotDiggetyDog.Controllers
         }
     }
     [ApiController]
-    [Route("api/JoinProductIngredient")]
-    public class JoinProductIngredientController : ControllerBase
+    [Route("api/ingredient-product")]
+    public class IngredientProductController : ControllerBase
     {
         private readonly DataContext _dataContext;
-        public JoinProductIngredientController(DataContext dataContext)
+        public IngredientProductController(DataContext dataContext)
         {
             _dataContext = dataContext;
         }

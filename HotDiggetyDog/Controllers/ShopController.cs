@@ -83,7 +83,8 @@ namespace HotDiggetyDog2.Controllers
                     .Where(s => s.IngredientsId == i && s.ShopsId == Id)
                     .Select(s => s.Quantity).FirstOrDefaultAsync();
                 shopDto.Ingredients
-                    .Add(new GetShopIngredientDto() { Id = ingredient.Id, Name = ingredient.Name, Price=ingredient.Price,Quantity=quantity });
+                    .Add(new GetShopIngredientDto()
+                    { Id = ingredient.Id, Name = ingredient.Name, Price=ingredient.Price,Quantity=quantity });
             }
             return Ok(shopDto);
         }
@@ -101,7 +102,7 @@ namespace HotDiggetyDog2.Controllers
 
 
     }
-    [ApiController]
+    /*[ApiController]
     [Route("api/shops/ingredients")]
     public class IngredientsForShopsController : ControllerBase
     {
@@ -125,23 +126,38 @@ namespace HotDiggetyDog2.Controllers
             await _context.SaveChangesAsync();
             return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
         }
-    }
+    }*/
     [ApiController]
-    [Route("api/JoinShopIngredient")]
-    public class JoinShopIngredientController : ControllerBase
+    [Route("api/shops/ingredients")]
+    public class IngredientsController : ControllerBase
     {
 
         DataContext _context;
-        public JoinShopIngredientController(DataContext context)
+        public IngredientsController(DataContext context)
         {
             _context = context;
         }
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<IngredientFromShopShop>>> Get()
+        [HttpPost]
+        public async Task<ActionResult> Add(IngredientsFromShop ingredient)
         {
-            return Ok(await _context.IngredientFromShopShops.ToListAsync());
+            bool alreadyExists = _context.IngredientsFromShops.Any(i => i.Id == ingredient.Id);
+            if (alreadyExists)
+                return UnprocessableEntity();
+            await _context.IngredientsFromShops.AddAsync(ingredient);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
         }
-        
+    }
+    [ApiController]
+    [Route("api/shops/ingredient-shop")]
+    public class IngredientShopController : ControllerBase
+    {
+
+        DataContext _context;
+        public IngredientShopController(DataContext context)
+        {
+            _context = context;
+        }
         [HttpPost]
         public async Task<ActionResult> Add(IngredientFromShopShop relation)
         {
@@ -152,6 +168,5 @@ namespace HotDiggetyDog2.Controllers
             await _context.SaveChangesAsync();
             return CreatedAtAction("Get", new { ShopId = relation.ShopsId, IngredientId = relation.IngredientsId}, relation);
         }
-
     }
 }
