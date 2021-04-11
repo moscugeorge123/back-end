@@ -1,4 +1,5 @@
 ﻿using HotDiggetyDog.Data;
+using HotDiggetyDog.DTOs;
 using HotDiggetyDog.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 namespace HotDiggetyDog.Controllers
 {
     [ApiController]
-    [Route("api/Products")]
+    [Route("api/products")]
     public class ProductController : ControllerBase
     {
         private readonly DataContext context;
@@ -22,24 +23,70 @@ namespace HotDiggetyDog.Controllers
 
         }
         [HttpGet("{Id}")]
-        public async Task<ActionResult<Product>> Get(int Id)
+        public async Task<ActionResult<GetProductDto>> Get(int Id)
         {
             var product = await context.Products.FindAsync(Id);
             if (product == null)
                 return NotFound();
-            return Ok(product);
+            List<int> ingredientsId = await context.IngredientFromProductProducts
+                .Where(p => p.ProductsId == Id)
+                .Select(p => p.IngredientsId)
+                .ToListAsync();
+            GetProductDto productDto = new GetProductDto()
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                Discount = product.Discount
+            };         
+            foreach(int i in ingredientsId)
+            {
+                IngredientsFromProduct ingredient = await context
+                    .IngredientsFromProducts
+                    .FindAsync(i);
+                productDto.Ingredients
+                    .Add(new GetIngredientDto() { Id = ingredient.Id, Name = ingredient.Name });
+            }
+            return Ok(productDto);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> Get()
+        public async Task<ActionResult<IEnumerable<GetProductDto>>> Get()
         {
             //string callingUrl = Request.GetTypedHeaders().Referer.ToString();
             //string callingUrl = HttpContext.Request.GetTypedHeaders().Referer.ToString();
             //return  Ok(callingUrl);
-            return await context.Products.ToListAsync();
+            List<Product> products = await context.Products.ToListAsync();
+            List<GetProductDto> productDtos = new List<GetProductDto>();
+            foreach (Product product in products)
+            {
+                List<int> ingredientsId = await context.IngredientFromProductProducts
+                   .Where(p => p.ProductsId == product.Id)
+                   .Select(p => p.IngredientsId)
+                   .ToListAsync();
+                GetProductDto productDto = new GetProductDto()
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Description = product.Description,
+                    Price = product.Price,
+                    Discount = product.Discount
+                };
+                foreach (int i in ingredientsId)
+                {
+                    IngredientsFromProduct ingredient = await context
+                        .IngredientsFromProducts
+                        .FindAsync(i);
+                    productDto.Ingredients
+                        .Add(new GetIngredientDto() { Id = ingredient.Id, Name = ingredient.Name });
+                }
+                productDtos.Add(productDto);
+            }
+            return Ok(productDtos);
         }
         [HttpPost]
-        public async Task<ActionResult> InsertPrduct(Product product)
+        public async Task<ActionResult> Add(Product product)
         {
 
             bool existsProduct = this.context.Products.Any(p => p.Id == product.Id);
@@ -51,40 +98,38 @@ namespace HotDiggetyDog.Controllers
 
             }
             return UnprocessableEntity("Product already exists");
-
-
-
         }
 
     }
-
     [ApiController]
-    [Route("api/IngredientsForProducts")]
-    public class IngredientsForProductsController : ControllerBase
+    [Route("api/products/ingredients")]
+    public class IngredientsController : ControllerBase
     {
-        private readonly DataContext _dataContext;
-        public IngredientsForProductsController(DataContext dataContext)
+        private readonly DataContext _context;
+        public IngredientsController(DataContext context)
         {
-            _dataContext = dataContext;
+            _context = context;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<IngredientsFromProduct>>> Get()
+        public async Task<ActionResult<IEnumerable<GetIngredientDto>>> Get()
         {
-            return Ok(await _dataContext.IngredientsFromProducts.ToListAsync());
+            List<GetIngredientDto> ingredients = await _context
+                .IngredientsFromProducts
+                .Select(i => new GetIngredientDto() { Id = i.Id, Name = i.Name })
+                .ToListAsync();
+            return Ok(ingredients);
         }
         [HttpPost]
         public async Task<ActionResult> Add(IngredientsFromProduct ingredient)
         {
-            bool existsIngredient = _dataContext.IngredientsFromProducts.Any(p => p.Id == ingredient.Id);
+            bool existsIngredient = _context.IngredientsFromProducts.Any(i => i.Id == ingredient.Id);
             if (!existsIngredient)
             {
-                _dataContext.IngredientsFromProducts.Add(ingredient);
-                await _dataContext.SaveChangesAsync();
+                _context.IngredientsFromProducts.Add(ingredient);
+                await _context.SaveChangesAsync();
                 return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
-
             }
             return UnprocessableEntity("Product already exists");
-
         }
     }
     [ApiController]
@@ -102,14 +147,14 @@ namespace HotDiggetyDog.Controllers
             return Ok(await _dataContext.IngredientFromProductProducts.ToListAsync());
         }
         [HttpPost]
-        public async Task<ActionResult>Add(IngredientFromProductProduct relation)
+        public async Task<ActionResult> Add(IngredientFromProductProduct relation)
         {
             bool alreadyExists = _dataContext.IngredientFromProductProducts.Any(s => s.ProductsId == relation.ProductsId && s.IngredientsId == relation.IngredientsId);
             if (alreadyExists)
                 return UnprocessableEntity();
             await _dataContext.IngredientFromProductProducts.AddAsync(relation);
             await _dataContext.SaveChangesAsync();
-            return CreatedAtAction("Get", new { ProductId = relation.ProductsId, IngredientId = relation.IngredientsId },relation);
+            return CreatedAtAction("Get", new { ProductId = relation.ProductsId, IngredientId = relation.IngredientsId }, relation);
         }
 
     }

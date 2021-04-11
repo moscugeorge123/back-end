@@ -1,4 +1,5 @@
 ﻿using HotDiggetyDog.Data;
+using HotDiggetyDog.DTOs;
 using HotDiggetyDog.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace HotDiggetyDog2.Controllers
 {
     [ApiController]
-    [Route("api/Shops")]
+    [Route("api/shops")]
     public class ShopController : ControllerBase
     {
         private readonly DataContext _context;
@@ -19,18 +20,72 @@ namespace HotDiggetyDog2.Controllers
 
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Shop>>> Get()
+        public async Task<ActionResult<IEnumerable<GetShopDto>>> Get()
         {
-            return await _context.Shops.ToListAsync();
+            List<Shop> shops = await _context.Shops.ToListAsync();
+            List<GetShopDto> shopDtos = new List<GetShopDto>();
+            foreach (Shop shop in shops)
+            {
+                List<int> ingredientsId = await _context.IngredientFromShopShops
+                   .Where(s => s.ShopsId == shop.Id)
+                   .Select(s => s.IngredientsId)
+                   .ToListAsync();
+                GetShopDto shopDto = new GetShopDto()
+                {
+                    Id = shop.Id,
+                    Name = shop.Name,
+                    LocationX = shop.LocationX,
+                    LocationY = shop.LocationY,
+
+                };
+                foreach (int i in ingredientsId)
+                {
+                    IngredientsFromShop ingredient = await _context
+                        .IngredientsFromShops
+                        .FindAsync(i);
+                    int quantity = await _context
+                        .IngredientFromShopShops
+                        .Where(s => s.IngredientsId == i && s.ShopsId == shop.Id)
+                        .Select(s => s.Quantity).FirstOrDefaultAsync();
+                    shopDto.Ingredients
+                        .Add(new GetShopIngredientDto() { Id = ingredient.Id, Name = ingredient.Name, Price = ingredient.Price, Quantity = quantity });
+                }
+                shopDtos.Add(shopDto);
+            }
+            return Ok(shopDtos);
         }
 
         [HttpGet("{Id}")]
-        public async Task<ActionResult<IEnumerable<Shop>>> Get(int Id)
+        public async Task<ActionResult<IEnumerable<GetShopDto>>> Get(int Id)
         {
             Shop shop = await _context.Shops.FindAsync(Id);
             if (shop == null)
                 return NotFound();
-            return Ok(shop);
+            List<int> ingredientsId = await _context.IngredientFromShopShops
+                .Where(s => s.ShopsId == Id)
+                .Select(s => s.IngredientsId)
+                .ToListAsync();
+            GetShopDto shopDto = new GetShopDto()
+            {
+                Id = shop.Id,
+                Name = shop.Name,
+                LocationX = shop.LocationX,
+                LocationY = shop.LocationY,
+
+            };
+            foreach (int i in ingredientsId)
+            {
+                IngredientsFromShop ingredient = await _context
+                    .IngredientsFromShops
+                    .FindAsync(i);
+                int quantity = await  _context
+                    .IngredientFromShopShops
+                    .Where(s => s.IngredientsId == i && s.ShopsId == Id)
+                    .Select(s => s.Quantity).FirstOrDefaultAsync();
+                shopDto.Ingredients
+                    .Add(new GetShopIngredientDto() { Id = ingredient.Id, Name = ingredient.Name, Price=ingredient.Price,Quantity=quantity });
+            }
+            return Ok(shopDto);
         }
 
         [HttpPost]
@@ -47,7 +102,7 @@ namespace HotDiggetyDog2.Controllers
 
     }
     [ApiController]
-    [Route("api/IngredientsForShops")]
+    [Route("api/shops/ingredients")]
     public class IngredientsForShopsController : ControllerBase
     {
         DataContext _context;
@@ -60,17 +115,6 @@ namespace HotDiggetyDog2.Controllers
         {
             return Ok(await _context.IngredientsFromShops.ToListAsync());
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<IngredientsFromShop>> Get(int Id)
-        {
-            IngredientsFromShop ingredient = await _context.IngredientsFromShops.FindAsync(Id);
-            if (ingredient == null)
-            {
-                return NotFound();
-            }
-            return Ok(ingredient);
-        }
-
         [HttpPost]
         public async Task<ActionResult> Add(IngredientsFromShop ingredient)
         {

@@ -5,16 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="DTOs\**" />
     <Compile Remove="Entities22\**" />
     <Compile Remove="Mappings\**" />
-    <Content Remove="DTOs\**" />
     <Content Remove="Entities22\**" />
     <Content Remove="Mappings\**" />
-    <EmbeddedResource Remove="DTOs\**" />
     <EmbeddedResource Remove="Entities22\**" />
     <EmbeddedResource Remove="Mappings\**" />
-    <None Remove="DTOs\**" />
     <None Remove="Entities22\**" />
     <None Remove="Mappings\**" />
   </ItemGroup>
