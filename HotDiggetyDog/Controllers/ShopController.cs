@@ -102,31 +102,7 @@ namespace HotDiggetyDog2.Controllers
 
 
     }
-    /*[ApiController]
-    [Route("api/shops/ingredients")]
-    public class IngredientsForShopsController : ControllerBase
-    {
-        DataContext _context;
-        public IngredientsForShopsController(DataContext context)
-        {
-            _context = context;
-        }
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<IngredientsFromShop>>> Get()
-        {
-            return Ok(await _context.IngredientsFromShops.ToListAsync());
-        }
-        [HttpPost]
-        public async Task<ActionResult> Add(IngredientsFromShop ingredient)
-        {
-            bool alreadyExists = _context.IngredientsFromShops.Any(i => i.Id == ingredient.Id);
-            if (alreadyExists)
-                return UnprocessableEntity();
-            await _context.IngredientsFromShops.AddAsync(ingredient);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
-        }
-    }*/
+    
     [ApiController]
     [Route("api/shops/ingredients")]
     public class IngredientsController : ControllerBase
@@ -136,6 +112,12 @@ namespace HotDiggetyDog2.Controllers
         public IngredientsController(DataContext context)
         {
             _context = context;
+        }
+        [HttpGet]
+        public async Task<ActionResult<IngredientsFromShop>> Get(int id)
+        {
+            var ingredient = _context.IngredientsFromShops.Find(id);
+            return Ok(ingredient);
         }
         [HttpPost]
         public async Task<ActionResult> Add(IngredientsFromShop ingredient)
@@ -166,7 +148,8 @@ namespace HotDiggetyDog2.Controllers
                 return UnprocessableEntity();
             await _context.IngredientFromShopShops.AddAsync(relation);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("Get", new { ShopId = relation.ShopsId, IngredientId = relation.IngredientsId}, relation);
+            var newRelation = _context.IngredientFromShopShops.Where(s => s.ShopsId == relation.ShopsId && s.IngredientsId == relation.IngredientsId);
+            return Ok(newRelation);
         }
     }
 }

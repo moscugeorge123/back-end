@@ -29,6 +29,15 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "BCrypt.Net-Next/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/BCrypt.Net-Next.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/BCrypt.Net-Next.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -1034,6 +1043,39 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "BCrypt.Net-Next/4.0.2": {
+      "sha512": "LyNKpIpr4GraRD9+xlTviyxxbZpF6J4xJf7DvraC1mR8PSN/KonGc4rt8C/fjkD3vaEvgA7BcvsbHFCOjgczyQ==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.2.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net40/BCrypt.Net-Next.dll",
+        "lib/net40/BCrypt.Net-Next.xml",
+        "lib/net452/BCrypt.Net-Next.dll",
+        "lib/net452/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/netcoreapp3.1/BCrypt.Net-Next.dll",
+        "lib/netcoreapp3.1/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -2959,6 +3001,7 @@
     "net5.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "BCrypt.Net-Next >= 4.0.2",
       "EntityFramework >= 6.4.4",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.0",
       "Microsoft.Bcl.Async >= 1.0.168",
@@ -2974,19 +3017,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
+    "C:\\Users\\stefa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+      "projectUniqueName": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
       "projectName": "HotDiggetyDog",
-      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-      "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo\\back-end\\HotDiggetyDog\\obj\\",
+      "projectPath": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+      "outputPath": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3019,6 +3062,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
+          },
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.2, )"
           },
           "EntityFramework": {
             "target": "Package",
@@ -3091,7 +3138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

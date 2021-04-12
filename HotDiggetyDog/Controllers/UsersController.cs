@@ -54,6 +54,7 @@ namespace HotDiggetyDog.Controllers
             bool existsEmail = context.Users.Any(b => b.Email == newUser.Email);
             if (!existsEmail)
             {
+                newUser.Password = BCrypt.Net.BCrypt.HashPassword(newUser.Password);
                 context.Users.Add(newUser);
                 await context.SaveChangesAsync();
                 return CreatedAtAction("Get", new { Id = newUser.Id }, newUser);

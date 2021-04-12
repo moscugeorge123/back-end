@@ -28,7 +28,9 @@ namespace HotDiggetyDog
             services.AddDbContext<DataContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
             services.AddControllers();
             services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
-
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IIngredientFromProductRepository, IngredientFromProductRepository>();
+            services.AddTransient<IIngredientProductRepository, IngredientProductRepository>();
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
             services.AddCors(options =>

@@ -1,13 +1,8 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.DTOs;
 using HotDiggetyDog.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace HotDiggetyDog.Controllers
@@ -16,84 +11,34 @@ namespace HotDiggetyDog.Controllers
     [Route("api/products")]
     public class ProductController : ControllerBase
     {
-        private readonly DataContext context;
-        public ProductController(DataContext context)
+        private readonly IProductRepository _productRepository;
+        public ProductController(IProductRepository productRepository)
         {
-            this.context = context;
+            _productRepository = productRepository;
 
         }
         [HttpGet("{Id}")]
         public async Task<ActionResult<GetProductDto>> Get(int Id)
         {
-            var product = await context.Products.FindAsync(Id);
-            if (product == null)
-                return NotFound();
-            List<int> ingredientsId = await context.IngredientFromProductProducts
-                .Where(p => p.ProductsId == Id)
-                .Select(p => p.IngredientsId)
-                .ToListAsync();
-            GetProductDto productDto = new GetProductDto()
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                Discount = product.Discount
-            };         
-            foreach(int i in ingredientsId)
-            {
-                IngredientsFromProduct ingredient = await context
-                    .IngredientsFromProducts
-                    .FindAsync(i);
-                productDto.Ingredients
-                    .Add(new GetIngredientDto() { Id = ingredient.Id, Name = ingredient.Name });
-            }
-            return Ok(productDto);
+            Product product = await _productRepository.GetById(Id);
+            return Ok(product);
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GetProductDto>>> Get()
         {
-            //string callingUrl = Request.GetTypedHeaders().Referer.ToString();
-            //string callingUrl = HttpContext.Request.GetTypedHeaders().Referer.ToString();
-            //return  Ok(callingUrl);
-            List<Product> products = await context.Products.ToListAsync();
-            List<GetProductDto> productDtos = new List<GetProductDto>();
-            foreach (Product product in products)
-            {
-                List<int> ingredientsId = await context.IngredientFromProductProducts
-                   .Where(p => p.ProductsId == product.Id)
-                   .Select(p => p.IngredientsId)
-                   .ToListAsync();
-                GetProductDto productDto = new GetProductDto()
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Description = product.Description,
-                    Price = product.Price,
-                    Discount = product.Discount
-                };
-                foreach (int i in ingredientsId)
-                {
-                    IngredientsFromProduct ingredient = await context
-                        .IngredientsFromProducts
-                        .FindAsync(i);
-                    productDto.Ingredients
-                        .Add(new GetIngredientDto() { Id = ingredient.Id, Name = ingredient.Name });
-                }
-                productDtos.Add(productDto);
-            }
-            return Ok(productDtos);
+
+            var getProductsDtos = await _productRepository.GetAll();
+            return Ok(getProductsDtos);
         }
         [HttpPost]
         public async Task<ActionResult> Add(Product product)
         {
 
-            bool existsProduct = this.context.Products.Any(p => p.Id == product.Id);
-            if (!existsProduct)
+            bool existsProduct = await _productRepository.CreateProduct(product);
+            if (existsProduct)
             {
-                context.Products.Add(product);
-                await context.SaveChangesAsync();
+
                 return CreatedAtAction("Get", new { Id = product.Id }, product);
 
             }
@@ -105,56 +50,55 @@ namespace HotDiggetyDog.Controllers
     [Route("api/products/ingredients")]
     public class IngredientsController : ControllerBase
     {
-        private readonly DataContext _context;
-        public IngredientsController(DataContext context)
+        private readonly IIngredientFromProductRepository _ingredientFromProductRepository;
+        public IngredientsController(IIngredientFromProductRepository ingredientFromProductRepository)
         {
-            _context = context;
+
+            _ingredientFromProductRepository = ingredientFromProductRepository;
+
         }
-        /*[HttpGet]
-        public async Task<ActionResult<IEnumerable<GetIngredientDto>>> Get()
+        [HttpGet]
+        public async Task<ActionResult<GetIngredientDto>> Get(int id)
         {
-            List<GetIngredientDto> ingredients = await _context
-                .IngredientsFromProducts
-                .Select(i => new GetIngredientDto() { Id = i.Id, Name = i.Name })
-                .ToListAsync();
-            return Ok(ingredients);
-        }*/
+            var ingredient = _ingredientFromProductRepository.GetById(id);
+            return await ingredient;
+        }
+
         [HttpPost]
         public async Task<ActionResult> Add(IngredientsFromProduct ingredient)
         {
-            bool existsIngredient = _context.IngredientsFromProducts.Any(i => i.Id == ingredient.Id);
-            if (!existsIngredient)
+            bool existsIngredient = await _ingredientFromProductRepository.CreateIngredient(ingredient);
+            if (existsIngredient)
             {
-                _context.IngredientsFromProducts.Add(ingredient);
-                await _context.SaveChangesAsync();
+
                 return CreatedAtAction("Get", new { Id = ingredient.Id }, ingredient);
+
             }
             return UnprocessableEntity("Product already exists");
+
         }
     }
     [ApiController]
     [Route("api/ingredient-product")]
     public class IngredientProductController : ControllerBase
     {
-        private readonly DataContext _dataContext;
-        public IngredientProductController(DataContext dataContext)
+        private readonly IIngredientProductRepository _repositoryIngredientProduct;
+        public IngredientProductController(IIngredientProductRepository repository)
         {
-            _dataContext = dataContext;
+            _repositoryIngredientProduct = repository;
         }
-        /*[HttpGet]
-        public async Task<ActionResult<IEnumerable<IngredientFromProductProduct>>> Get()
-        {
-            return Ok(await _dataContext.IngredientFromProductProducts.ToListAsync());
-        }*/
+
+
         [HttpPost]
         public async Task<ActionResult> Add(IngredientFromProductProduct relation)
         {
-            bool alreadyExists = _dataContext.IngredientFromProductProducts.Any(s => s.ProductsId == relation.ProductsId && s.IngredientsId == relation.IngredientsId);
-            if (alreadyExists)
+            bool existRelation = await _repositoryIngredientProduct.CreateRelation(relation);
+            if (existRelation)
+            {
                 return UnprocessableEntity();
-            await _dataContext.IngredientFromProductProducts.AddAsync(relation);
-            await _dataContext.SaveChangesAsync();
-            return CreatedAtAction("Get", new { ProductId = relation.ProductsId, IngredientId = relation.IngredientsId }, relation);
+            }
+
+            return Ok();
         }
 
     }

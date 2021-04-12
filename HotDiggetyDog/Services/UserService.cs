@@ -28,21 +28,21 @@ namespace HotDiggetyDog.Services
         }
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
-            var user = _dataContext.Users.Where(s => s.Username == model.Username && s.Password==model.Password ).FirstOrDefault();
+            var user = _dataContext.Users.Where(s => s.Username == model.Username  ).FirstOrDefault();
 
             
 
-            // return null if user not found
-            if (user == null) return null;
+            
+            if (user == null || !BCrypt.Net.BCrypt.Verify(model.Password,user.Password )) return null;
 
-            // authentication successful so generate jwt token
+          
             var token = generateJwtToken(user);
 
             return new AuthenticateResponse(user, token);
         }
         private string generateJwtToken(User user)
         {
-            // generate token that is valid for 7 days
+           
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor

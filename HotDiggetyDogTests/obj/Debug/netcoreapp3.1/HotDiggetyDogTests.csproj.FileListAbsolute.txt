@@ -541,3 +541,5 @@ D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDogTests\bin\Debug\netcoreapp3
 D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDogTests\bin\Debug\netcoreapp3.1\latticework.cs.dll
 D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDogTests\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.Auth.dll
 D:\.net\HotDiggetyDOg\back-end\back-end\HotDiggetyDogTests\bin\Debug\netcoreapp3.1\Microsoft.Exchange.WebServices.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDogTests\obj\Debug\netcoreapp3.1\HotDiggetyDogTests.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDogTests\obj\Debug\netcoreapp3.1\HotDiggetyDogTests.pdb
