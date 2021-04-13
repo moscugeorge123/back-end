@@ -12,9 +12,8 @@ namespace HotDiggetyDog.Helpers
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             var user = (User)context.HttpContext.Items["User"];
-            if (user == null)
+            if (user == null || user.Role != "admin")
             {
-                
                 context.Result = new JsonResult(new { message = "Unauthorized" }) { StatusCode = StatusCodes.Status401Unauthorized };
             }
         }

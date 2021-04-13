@@ -1,5 +1,6 @@
 ﻿using HotDiggetyDog.Data;
 using HotDiggetyDog.Entities;
+using HotDiggetyDog.Helpers;
 using HotDiggetyDog.Models;
 using HotDiggetyDog.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -33,12 +34,15 @@ namespace HotDiggetyDog.Controllers
 
             return Ok(response);
         }
+
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> Get()
         {
             return await context.Users.ToListAsync();
         }
 
+        [Authorize]
         [HttpGet("{Id}")]
         public async Task<ActionResult<User>>Get(Guid Id)
         {
@@ -55,9 +59,10 @@ namespace HotDiggetyDog.Controllers
             if (!existsEmail)
             {
                 newUser.Password = BCrypt.Net.BCrypt.HashPassword(newUser.Password);
+                newUser.Role = "customer";
                 context.Users.Add(newUser);
                 await context.SaveChangesAsync();
-                return CreatedAtAction("Get", new { Id = newUser.Id }, newUser);
+                return CreatedAtAction("Get", new { Id = newUser.Id}, newUser);
             }
                 return UnprocessableEntity("Email already exists");      
         }

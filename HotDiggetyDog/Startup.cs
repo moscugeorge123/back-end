@@ -73,6 +73,8 @@ namespace HotDiggetyDog
 
             app.UseAuthorization();
 
+            app.UseAuthMiddleware();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

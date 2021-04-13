@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {}
+    "C:\\Users\\gceof\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+      "projectUniqueName": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
       "projectName": "HotDiggetyDogTests",
-      "projectPath": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDogTests\\obj\\",
+      "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+      "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
-              "projectPath": "D:\\.net\\HotDiggetyDog2\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
+            "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+              "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
             }
           }
         }
@@ -78,7 +78,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   },
