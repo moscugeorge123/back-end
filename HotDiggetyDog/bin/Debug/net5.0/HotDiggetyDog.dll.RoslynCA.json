@@ -83,27 +83,6 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo%20new/back-end/HotDiggetyDog/Controllers/ShopController.cs",
                 "region": {
-                  "startLine": 138,
-                  "startColumn": 21,
-                  "endLine": 138,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_context' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo%20new/back-end/HotDiggetyDog/Controllers/ShopController.cs",
-                "region": {
                   "startLine": 111,
                   "startColumn": 21,
                   "endLine": 111,
@@ -129,6 +108,27 @@
                   "startColumn": 9,
                   "endLine": 85,
                   "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_context' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo%20new/back-end/HotDiggetyDog/Controllers/ShopController.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 21,
+                  "endLine": 138,
+                  "endColumn": 29
                 }
               }
             }
