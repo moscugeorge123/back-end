@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
         "projectName": "HotDiggetyDogTests",
-        "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\HotDiggetyDogTests\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
-                "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
+              "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
               }
             }
           }
@@ -41,8 +41,26 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,21 +71,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
         "projectName": "HotDiggetyDog",
-        "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +134,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.Bcl.Async": {
               "target": "Package",
@@ -139,7 +162,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[6.10.0, )"
+              "version": "[6.10.1, )"
             },
             "SQLite": {
               "target": "Package",
@@ -147,7 +170,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.1.2, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -176,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
