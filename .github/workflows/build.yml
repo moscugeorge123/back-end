@@ -43,6 +43,6 @@ jobs:
         shell: powershell
         run: |
           cd HotDiggetyDog
-          .sonar\scanner\dotnet-sonarscanner begin /k:"moscugeorge123_back-end" /o:"hotdog" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          .sonar\scanner\dotnet-sonarscanner begin /k:"moscugeorge123_back-end" /o:"hotdog" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build
           .sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
