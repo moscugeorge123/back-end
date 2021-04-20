@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {}
+    "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+    "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "projectUniqueName": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
         "projectName": "HotDiggetyDog",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\obj\\",
+        "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[4.0.2, )"
             },
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -64,21 +60,27 @@
               "target": "Package",
               "version": "[1.0.168, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
+              "version": "[5.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.Exchange.WebServices": {
               "target": "Package",
@@ -87,6 +89,10 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.10.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "SQLite": {
               "target": "Package",
@@ -123,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

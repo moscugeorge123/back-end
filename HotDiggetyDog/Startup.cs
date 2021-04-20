@@ -25,7 +25,7 @@ namespace HotDiggetyDog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options => { options.UseSqlite(configuration.GetConnectionString("HotDiggetyDog")); });
+            services.AddDbContext<DataContext>(options => { options.UseNpgsql(configuration.GetConnectionString("HotDiggetyDog")); });
             services.AddControllers();
             services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
             services.AddTransient<IProductRepository, ProductRepository>();

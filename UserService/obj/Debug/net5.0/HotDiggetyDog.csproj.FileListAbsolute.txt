@@ -1,0 +1,493 @@
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.json
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.exe
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.deps.json
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.json
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.dev.json
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\ref\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.pdb
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.Core.Net451.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.DirectoryServices.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.EntityFramework.EF5.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\latticework.cs.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Collections.Immutable.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.ComponentModel.Annotations.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.Manifest.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.xml
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\scopedcss\bundle\HotDiggetyDog.styles.css
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.RazorTargetAssemblyInfo.cache
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CopyComplete
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\ref\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.pdb
+C:\Users\Andrei\Desktop\HDD repo\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.Development.json
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.json
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.exe
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.deps.json
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.json
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.dev.json
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.pdb
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Humanizer.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.Net45.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.Core.Net451.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.DirectoryServices.Net45.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.EntityFramework.EF5.Net45.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\latticework.cs.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.CodeDom.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Collections.Immutable.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.ComponentModel.Annotations.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Json.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csprojAssemblyReference.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfoInputs.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfo.cs
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CoreCompileInputs.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.Manifest.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.xml
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\scopedcss\bundle\HotDiggetyDog.styles.css
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.RazorTargetAssemblyInfo.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CopyComplete
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.pdb
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+D:\.net\HotDiggetyDog2\back-end\HotDiggetyDog\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csprojAssemblyReference.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfoInputs.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfo.cs
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CoreCompileInputs.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.dll
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.pdb
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.Development.json
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.json
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.exe
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.deps.json
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.json
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.dev.json
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.pdb
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Humanizer.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.Net45.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.Core.Net451.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.DirectoryServices.Net45.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.EntityFramework.EF5.Net45.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\latticework.cs.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.CodeDom.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Collections.Immutable.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.ComponentModel.Annotations.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Json.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.Manifest.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.xml
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\scopedcss\bundle\HotDiggetyDog.styles.css
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.RazorTargetAssemblyInfo.cache
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CopyComplete
+D:\GitHub\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\appsettings.json
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.exe
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.deps.json
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.json
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.dev.json
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\ref\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\HotDiggetyDog.pdb
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.BusinessLogic.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.Core.Net451.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.DirectoryServices.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Lw.EntityFramework.EF5.Net45.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\latticework.cs.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Threading.Tasks.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Exchange.WebServices.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Collections.Immutable.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.ComponentModel.Annotations.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.Manifest.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\staticwebassets\HotDiggetyDog.StaticWebAssets.xml
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\scopedcss\bundle\HotDiggetyDog.styles.css
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.RazorTargetAssemblyInfo.cache
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.csproj.CopyComplete
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\ref\HotDiggetyDog.dll
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.pdb
+C:\Users\Andrei\Desktop\HDD repo new\back-end\HotDiggetyDog\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.csprojAssemblyReference.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfoInputs.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.AssemblyInfo.cs
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.csproj.CoreCompileInputs.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.dll
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.pdb
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\appsettings.Development.json
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\appsettings.json
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.exe
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.deps.json
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.json
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.runtimeconfig.dev.json
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\ref\HotDiggetyDog.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\HotDiggetyDog.pdb
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\AutoMapper.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\BCrypt.Net-Next.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Humanizer.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.BusinessLogic.Net45.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.Core.Net451.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.DirectoryServices.Net45.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Lw.EntityFramework.EF5.Net45.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\latticework.cs.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Threading.Tasks.Extensions.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Threading.Tasks.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Exchange.WebServices.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.RazorTargetAssemblyInfo.cache
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.csproj.CopyComplete
+D:\GitHub\back-end\UserService\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Npgsql.dll
+D:\GitHub\back-end\UserService\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
