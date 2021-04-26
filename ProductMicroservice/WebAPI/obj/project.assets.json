@@ -3158,19 +3158,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3184,11 +3184,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj": {
-              "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj"
+            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj"
             },
-            "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -3240,7 +3240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

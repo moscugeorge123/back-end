@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj": {}
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\Domain.csproj"
+              "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\Domain.csproj": {
+    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\ProductMicroservice\\ProductMicroservice\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
