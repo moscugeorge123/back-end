@@ -59,7 +59,7 @@ namespace HotDiggetyDog.Controllers
             if (!existsEmail)
             {
                 newUser.Password = BCrypt.Net.BCrypt.HashPassword(newUser.Password);
-                newUser.Role = "customer";
+                newUser.Role = "admin";
                 context.Users.Add(newUser);
                 await context.SaveChangesAsync();
                 return CreatedAtAction("Get", new { Id = newUser.Id}, newUser);
