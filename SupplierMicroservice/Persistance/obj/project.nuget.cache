@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/AFMWnsNlYXXP3VnVnf/cAw3lyCSEPaNgSl0q4RKeKcQYthndV8KSlf+gp9O8QYsU88zXPfOScokjqnwauzfzw==",
+  "dgSpecHash": "cy8T8ir9RsotYKDurTw+ydjwZ0L86QF1EnhFPX//VcSjDinbTvmstO5bfmmIvp6e19VsxDR/5Lhl3YTpquhAeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\Supplier\\SupplierMicroservice\\Persistance\\Persistance.csproj",
+  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1dte49X/f/jWHlbzveCRrfazFeBU3qUwmv37vTIpcDHZJv3DZb8OVCRgJNHl2B3/0Xr5i10hnfjj8+EhS9PQg==",
+  "dgSpecHash": "efqypGxAFiBYE3m9AQpJwhtG+9UA+vKHm/ukXCQJy/zeziUbRhTr2iMMVllTzArBFM2pGsUc/jFMfuw7gm8pWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\Supplier\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

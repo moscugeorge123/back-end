@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iB1ZT6NWJTvAk5u6PRNnq086iQbuU1I/JqnrVTn8tK64KWLMsHMCEMaG0EFXJ1ARsWYsM84z7P2pTA7UobLOyg==",
+  "dgSpecHash": "hpdJqTEcJocOpwhidAYba4ruVTmFTaNcfDAc3SSN5xpzv9HcAY0c1TNCmbq3uNqwi1zAstcyw3wEh+/uDfst/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\Supplier\\SupplierMicroservice\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
