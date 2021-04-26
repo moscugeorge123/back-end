@@ -1,0 +1,45 @@
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\Application.deps.json
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\Application.dll
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\ref\Application.dll
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\Application.pdb
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\Domain.dll
+D:\.net\ShopMicroservice\ShopMicroservice\Application\bin\Debug\net5.0\Domain.pdb
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.dll
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\ref\Application.dll
+D:\.net\ShopMicroservice\ShopMicroservice\Application\obj\Debug\net5.0\Application.pdb
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\Application.deps.json
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\Application.dll
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\ref\Application.dll
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\Application.pdb
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\Domain.dll
+D:\GitHub\SupplierMicroservice\Application\bin\Debug\net5.0\Domain.pdb
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.dll
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\ref\Application.dll
+D:\GitHub\SupplierMicroservice\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\Application.dll
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\ref\Application.dll
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\Domain.dll
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\bin\Debug\net5.0\Domain.pdb
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.dll
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\ref\Application.dll
+C:\Users\Andrei\Desktop\HDD repo new\Supplier\SupplierMicroservice\Application\obj\Debug\net5.0\Application.pdb
