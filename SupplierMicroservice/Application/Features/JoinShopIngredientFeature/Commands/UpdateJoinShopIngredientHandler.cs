@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Application.Features.JoinShopIngredientFeature.Commands
 {
-    public class CreateJoinShopIngredientHandler:IRequestHandler<CreateJoinShopIngredient,bool>
+    public class UpdateJoinShopIngredientHandler:IRequestHandler<UpdateJoinShopIngredient,IngredientFromShopShop>
     {
         private readonly IApplicationContext context;
 
-        public CreateJoinShopIngredientHandler(IApplicationContext context)
+        public UpdateJoinShopIngredientHandler(IApplicationContext context)
         {
             this.context = context;
         }
-        public async Task<bool> Handle(CreateJoinShopIngredient request,CancellationToken cancellationToken)
+        public async Task<IngredientFromShopShop>  Handle(UpdateJoinShopIngredient request,CancellationToken cancellationToken)
         {
             try
             {
@@ -31,21 +31,27 @@ namespace Application.Features.JoinShopIngredientFeature.Commands
             {
                 throw new Exception("The user has cancelled the task!");
             }
-            bool alreadyExists = context.JoinIngredientShop.Any(s => s.IngredientsId == request.IngrdientId && s.ShopsId == request.ShopId);
-            if (alreadyExists)
-                return false;
-            var relation = new IngredientFromShopShop
+            var relation = context.JoinIngredientShop.Where(s => s.IngredientsId == request.IngrdientId && s.ShopsId == request.ShopId).FirstOrDefault();
+            if (relation==null)
+            {
+                throw new Exception("Relation does not exist");
+            }
+
+            /*var relation = new IngredientFromShopShop
             {
                 IngredientsId = request.IngrdientId,
                 ShopsId = request.ShopId,
                 Quantity = request.Quantity
                 
-            };
-            await context.JoinIngredientShop.AddAsync(relation);
+            };*/
+            relation.Quantity = request.Quantity;
+            context.JoinIngredientShop.Update(relation);
             await context.SaveChangesAsync();
-            return true;
+            return relation;
 
 
         }
+
+        
     }
 }

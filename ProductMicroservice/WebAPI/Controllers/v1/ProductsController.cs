@@ -2,8 +2,14 @@
 using Application.Features.ProductFeatures.Commands;
 using Application.Features.ProductFeatures.Queries;
 using MediatR;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using WebAPI.Model;
+using System.Net.Http;
+using System.Net;
 
 namespace WebAPI.Controllers.v1
 {
@@ -27,9 +33,16 @@ namespace WebAPI.Controllers.v1
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById(int id) => Ok(await mediator.Send(new GetProductByIdQuery { Id = id }));
+
+       
+       
+
+        [HttpPost]
+        [Route("getByArray")]
+        public async Task<IActionResult> GetByArray([FromBody] GetProductsByArray query)
         {
-            return Ok(await mediator.Send(new GetProductByIdQuery { Id = id }));
+            return Ok(await mediator.Send(query));
         }
 
         [HttpPut]

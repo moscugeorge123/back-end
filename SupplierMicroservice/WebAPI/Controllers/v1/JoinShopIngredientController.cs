@@ -13,10 +13,11 @@ namespace WebAPI.Controllers.v1
         {
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateJoinShopIngredient command)
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateJoinShopIngredient command)
         {
-            return Ok(await mediator.Send(command));
+            await mediator.Send(command);
+            return NoContent();
         }
 
         [HttpGet]
