@@ -29,7 +29,7 @@ namespace Application.Features.JoinShopIngredientFeature.Commands
             }
             catch (Exception ex) when (ex is TaskCanceledException)
             {
-                throw new Exception("The user has cancelled the task!");
+                throw new TaskCanceledException("The user has cancelled the task!");
             }
             bool alreadyExists = context.JoinIngredientShop.Any(s => s.IngredientsId == request.IngrdientId && s.ShopsId == request.ShopId);
             if (alreadyExists)
@@ -41,7 +41,7 @@ namespace Application.Features.JoinShopIngredientFeature.Commands
                 Quantity = request.Quantity
                 
             };
-            await context.JoinIngredientShop.AddAsync(relation);
+            await context.JoinIngredientShop.AddAsync(relation,cancellationToken);
             await context.SaveChangesAsync();
             return true;
 

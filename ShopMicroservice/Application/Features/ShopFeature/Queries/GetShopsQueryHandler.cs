@@ -39,7 +39,7 @@ namespace Application.Features.ShopFeature.Queries
                 };
                 foreach (int i in ingredientsId)
                 {
-                    IngredientsFromShop ingredient =  context.Ingredients.Find(i);
+                    IngredientsFromShop ingredient =  await context.Ingredients.FindAsync(i);
                     GetIngredientDto getIngredientDto = new GetIngredientDto();
                     getIngredientDto.Id = ingredient.Id;
                     getIngredientDto.Name = ingredient.Name;

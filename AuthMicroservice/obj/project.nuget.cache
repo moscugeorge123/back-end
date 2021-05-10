@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DXFZ8soB8Dz22/Jj+iv+xpdJImsFhnqHkXTXgw+eLcambuQD8GBAZ0lSx3feeYpDrdLB2CAo76y9zYMllOKXnA==",
+  "dgSpecHash": "41vKJy94TdSITyTgE4bEL0HbcXiD0J/rCKYnWSsJy9SPC3fkIg41HirWqVjQcTtjcdSRRi6zAam8Y5B42SGgvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\UserService\\HotDiggetyDog.csproj",
+  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\AuthMicroservice\\HotDiggetyDog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

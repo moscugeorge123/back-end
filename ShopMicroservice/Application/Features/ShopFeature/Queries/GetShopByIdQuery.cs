@@ -5,6 +5,6 @@ namespace Application.Features.ShopFeature.Queries
 {
     public class GetShopByIdQuery:IRequest<GetShopDto>
     {
-        public int Id;
+        public int Id { get; set; }
     }
 }

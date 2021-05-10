@@ -27,14 +27,14 @@ namespace Application.Features.ShopFeature.Queries
 
             if (shop == null)
             {
-                throw new Exception("Shop doesn't exist");
+                throw new ArgumentNullException(nameof(request));
             }
 
 
             List<int> ingredientsId = await context.JoinIngredientShop
                 .Where(p => p.ShopsId == request.Id)
                 .Select(p => p.IngredientsId)
-                .ToListAsync();
+                .ToListAsync(cancellationToken);
             GetShopDto shopDto = new GetShopDto()
             {
                 Id = shop.Id,
@@ -47,7 +47,7 @@ namespace Application.Features.ShopFeature.Queries
             {
                 IngredientsFromShop ingredient = await context
                     .Ingredients
-                    .FindAsync(i);
+                    .FindAsync(i,cancellationToken);
                 GetIngredientDto getIngredientDto = new GetIngredientDto();
                 getIngredientDto.Id = ingredient.Id;
                 getIngredientDto.Name = ingredient.Name;

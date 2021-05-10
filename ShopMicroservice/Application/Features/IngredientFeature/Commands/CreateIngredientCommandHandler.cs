@@ -28,7 +28,7 @@ namespace Application.Features.IngredientFeature.Commands
             }
             catch (Exception ex) when (ex is TaskCanceledException)
             {
-                throw new Exception("The user has cancelled the task!");
+                throw new TaskCanceledException("The user has cancelled the task!");
             }
 
 

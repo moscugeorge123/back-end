@@ -17,7 +17,7 @@ namespace Persistance.Repository.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(AddAsync)} entity must not be null");
+                throw new ArgumentNullException(nameof(entity));
 
             }
             try
@@ -28,7 +28,7 @@ namespace Persistance.Repository.v1
             }
             catch (Exception ex)
             {
-                throw new Exception($"{nameof(entity)} could not be  saved:{ex.Message}");
+                throw new ArgumentException(ex.Message,nameof(entity));
 
             }
         }
@@ -37,7 +37,7 @@ namespace Persistance.Repository.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(DeleteAsync)} entity must not be null");
+                throw new ArgumentNullException(nameof(entity));
 
             }
             try
@@ -48,7 +48,7 @@ namespace Persistance.Repository.v1
             }
             catch (Exception ex)
             {
-                throw new Exception($"{nameof(entity)} could not be null deleted:{ex.Message}");
+                throw new ArgumentException(ex.Message,nameof(entity));
 
             }
         }
@@ -61,7 +61,7 @@ namespace Persistance.Repository.v1
             }
             catch (Exception ex)
             {
-                throw new Exception($"Couldn't retrieve entities: {ex.Message}");
+                throw new CannotUnloadAppDomainException($"Couldn't retrieve entities: {ex.Message}");
             }
         }
 
@@ -69,7 +69,7 @@ namespace Persistance.Repository.v1
         {
             if (id == 0)
             {
-                throw new ArgumentException($"{nameof(GetById)} id must not be empty");
+                throw new ArgumentException("id is 0",nameof(id));
 
             }
             try
@@ -78,7 +78,7 @@ namespace Persistance.Repository.v1
             }
             catch (Exception ex)
             {
-                throw new Exception($"Couldn't retrieve entities: {ex.Message}");
+                throw new CannotUnloadAppDomainException($"Couldn't retrieve entities: {ex.Message}");
             }
 
         }
@@ -87,7 +87,7 @@ namespace Persistance.Repository.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(UpdateAsync)} entity must not be null");
+                throw new ArgumentNullException(nameof(entity));
 
             }
             try
@@ -98,7 +98,7 @@ namespace Persistance.Repository.v1
             }
             catch (Exception ex)
             {
-                throw new Exception($"{nameof(entity)} could not be update:{ex.Message}");
+                throw new ArgumentException(ex.Message,nameof(entity));
 
             }
         }

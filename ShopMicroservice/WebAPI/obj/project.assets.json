@@ -1622,11 +1622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1643,11 +1643,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Application\\Application.csproj"
+            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Application\\Application.csproj"
             },
-            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Persistance\\Persistance.csproj": {
-              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Persistance\\Persistance.csproj"
+            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj"
             }
           }
         }

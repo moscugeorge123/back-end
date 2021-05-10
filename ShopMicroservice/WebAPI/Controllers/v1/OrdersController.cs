@@ -14,7 +14,7 @@ namespace WebAPI.Controllers.v1
         [HttpPost]
         public async Task<IActionResult>Add(CreateOrderCommand command)
         {
-            return Ok(mediator.Send(command));
+            return Ok(await mediator.Send(command));
         }
     }
 }

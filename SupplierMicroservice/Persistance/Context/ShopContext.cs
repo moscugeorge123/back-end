@@ -48,9 +48,7 @@ namespace Persistance.Context
 
 
 
-            OnModelCreatingPartial(modelBuilder);
         }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

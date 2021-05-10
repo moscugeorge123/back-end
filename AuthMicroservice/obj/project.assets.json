@@ -1881,11 +1881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\UserService\\HotDiggetyDog.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\AuthMicroservice\\HotDiggetyDog.csproj",
       "projectName": "HotDiggetyDog",
-      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\UserService\\HotDiggetyDog.csproj",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\AuthMicroservice\\HotDiggetyDog.csproj",
       "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\UserService\\obj\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\AuthMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",

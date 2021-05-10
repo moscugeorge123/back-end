@@ -26,13 +26,13 @@ namespace Application.Features.ShopFeature.Commands
             }
             catch (Exception ex) when (ex is TaskCanceledException)
             {
-                throw new Exception("The user has cancelled the task!");
+                throw new TaskCanceledException("The user has cancelled the task!");
             }
             var shop = repository.GetById(request.Id).Result;
 
             if (shop == null)
             {
-                throw new Exception("Product doesn't exist!");
+                throw new ArgumentNullException(nameof(request));
             }
 
             shop.Id = request.Id;

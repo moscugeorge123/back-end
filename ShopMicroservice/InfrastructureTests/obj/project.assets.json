@@ -7374,11 +7374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\InfrastructureTests\\InfrastructureTests.csproj",
+      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\InfrastructureTests\\InfrastructureTests.csproj",
       "projectName": "InfrastructureTests",
-      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\InfrastructureTests\\InfrastructureTests.csproj",
+      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\InfrastructureTests\\InfrastructureTests.csproj",
       "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\InfrastructureTests\\obj\\",
+      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\InfrastructureTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7395,8 +7395,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Persistance\\Persistance.csproj": {
-              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\ShopMicroservice\\Persistance\\Persistance.csproj"
+            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj"
             }
           }
         }

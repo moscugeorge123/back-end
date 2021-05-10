@@ -28,13 +28,13 @@ namespace Application.Features.IngredientFeature.Commands
             }
             catch (Exception ex) when (ex is TaskCanceledException)
             {
-                throw new Exception("The user has cancelled the task!");
+                throw new TaskCanceledException("The user has cancelled the task!");
             }
             var ingredient = repository.GetById(request.Id).Result;
 
             if (ingredient == null)
             {
-                throw new Exception("Product doesn't exist!");
+                throw new ArgumentNullException(nameof(request));
             }
 
             ingredient.Id = request.Id;

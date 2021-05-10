@@ -30,7 +30,7 @@ namespace Application.Features.ShopFeature.Commands
             }
             catch (Exception ex) when (ex is TaskCanceledException)
             {
-                throw new Exception("The user has cancelled the task!");
+                throw new TaskCanceledException("The user has cancelled the task!");
             }
             var shop = new Shop
             {

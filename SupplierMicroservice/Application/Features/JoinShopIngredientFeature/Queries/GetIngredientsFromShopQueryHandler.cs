@@ -18,7 +18,7 @@ namespace Application.Features.JoinShopIngredientFeature.Queries
 
         public async Task<IEnumerable<IngredientsFromShopDto>> Handle(GetIngredientsFromShopQuery request, CancellationToken cancellationToken)
         {
-            var relations = await context.JoinIngredientShop.ToListAsync();
+            var relations = await context.JoinIngredientShop.ToListAsync(cancellationToken);
 
             var result = new List<IngredientsFromShopDto>();
             foreach (var relation in relations)

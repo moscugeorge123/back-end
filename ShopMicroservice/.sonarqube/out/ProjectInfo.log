@@ -1,0 +1,28 @@
+Product projects
+---------------------------------------
+C:\Users\Andrei\Desktop\HDD repo new\back-end\ShopMicroservice\Domain\Domain.csproj
+C:\Users\Andrei\Desktop\HDD repo new\back-end\ShopMicroservice\Application\Application.csproj
+C:\Users\Andrei\Desktop\HDD repo new\back-end\ShopMicroservice\Persistance\Persistance.csproj
+C:\Users\Andrei\Desktop\HDD repo new\back-end\ShopMicroservice\WebAPI\WebAPI.csproj
+
+
+Test projects
+---------------------------------------
+C:\Users\Andrei\Desktop\HDD repo new\back-end\ShopMicroservice\InfrastructureTests\InfrastructureTests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

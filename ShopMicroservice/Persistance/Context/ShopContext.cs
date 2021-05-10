@@ -63,9 +63,7 @@ namespace Persistance.Context
                 entity.ToTable("IngredientsFromShop");
             });
 
-            OnModelCreatingPartial(modelBuilder);
         }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

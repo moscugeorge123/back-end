@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.10.0.0",
+        "fileVersion": "3.10.0-3.21201.20 (ee26791a)",
+        "semanticVersion": "3.10.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'cancellationToken' parameter to the 'FindAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo%20new/back-end/ShopMicroservice/Application/Features/ShopFeature/Queries/GetShopsQueryHandler.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 61,
+                  "endLine": 42,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "cancellationToken",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'cancellationToken' parameter to the 'FindAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Andrei/Desktop/HDD%20repo%20new/back-end/ShopMicroservice/Application/Features/ShopFeature/Queries/GetShopByIdQueryHandler.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 56,
+                  "endLine": 50,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "cancellationToken",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA2016": {
+          "id": "CA2016",
+          "shortDescription": "Forward the 'CancellationToken' parameter to methods",
+          "fullDescription": "Forward the 'CancellationToken' parameter to methods to ensure the operation cancellation notifications gets properly propagated, or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
+          "properties": {
+            "category": "Reliability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
