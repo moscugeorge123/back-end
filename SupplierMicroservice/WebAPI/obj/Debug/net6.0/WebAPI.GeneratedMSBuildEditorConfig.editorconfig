@@ -6,9 +6,16 @@ build_property.ProjectTypeGuids =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAPI
 build_property.RootNamespace = WebAPI
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\WebAPI\
 build_property.RazorLangVersion = 5.0
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\WebAPI
+=======
+build_property.ProjectDir = D:\.net\AuthMicroservice\back-end\SupplierMicroservice\WebAPI\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\.net\AuthMicroservice\back-end\SupplierMicroservice\WebAPI
+>>>>>>> dab5d3eaf2c57bd876b0eb2108be2a1a5736d0f1
 build_property._RazorSourceGeneratorDebug = 
 build_property._RazorSourceGeneratorLog =

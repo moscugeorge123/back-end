@@ -8,6 +8,7 @@ namespace Application.Interfaces
     {
         DbSet<IngredientFromShopShop> JoinIngredientShop { get; set; }
         Task<int> SaveChangesAsync();
+   
 
     }
 }

@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {}
+    "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj"
+              "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj"
               }
             }
           }
@@ -41,26 +41,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0-preview.3.21201.2, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.0-preview.3.21201.4, )"
-            },
-            "System.Threading.Tasks": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -71,38 +53,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Domain\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -113,8 +90,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -125,41 +102,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Application\\Application.csproj"
+              "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
+                "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj"
               }
             }
           }
@@ -171,18 +143,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0-preview.3.21201.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.0-preview.3.21201.2, )"
-            }
-          },
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -193,12 +155,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
