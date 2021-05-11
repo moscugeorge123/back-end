@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPRVIg97gT/t6Un1hUm3nU4MBbdMS9RgCiioNTwkg7QAu72Ym9Aa3OlQt4CWfxXAbAJm2RrkNiN+Rlh2pDZsig==",
+  "dgSpecHash": "rCiMKXIC1A5TpA/CqERcG+XkjnHUWIECZZ1a/NPmiy1BFMLFP0k6xsdoGoVk5z/V2RyOmrAbOynrV7il7e7wYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\WebAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

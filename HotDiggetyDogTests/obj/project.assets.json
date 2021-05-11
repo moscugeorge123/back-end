@@ -5710,7 +5710,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+      "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
@@ -5718,19 +5718,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrei\\.nuget\\packages\\": {}
+    "C:\\Users\\stefa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+      "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
       "projectName": "HotDiggetyDogTests",
-      "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
-      "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDogTests\\obj\\",
+      "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDogTests\\HotDiggetyDogTests.csproj",
+      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+      "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDogTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5744,8 +5744,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
-              "projectPath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
+            "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+              "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj"
             }
           }
         }
@@ -5792,7 +5792,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -5800,8 +5800,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+      "message": "Unable to find project information for 'D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
       "targetGraphs": [
         "net5.0"
       ]

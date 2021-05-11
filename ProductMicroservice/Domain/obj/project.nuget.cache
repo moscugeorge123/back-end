@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bRSKRCN1ubZoCce4GOaUSlnOJmjPyQjenS7lbs3V6lT6plVqnci6cPMXJAhXYk5hI9yax/tBp5a8Mz3txP3F5A==",
+  "dgSpecHash": "3A1AVRQOvrErMGr8XV9SZnSl/YB/Qo366fUEDRm7ecGuqEQCkLNMkVbZp6IHzzY852ZQhUNeSX0er55wiPS6Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

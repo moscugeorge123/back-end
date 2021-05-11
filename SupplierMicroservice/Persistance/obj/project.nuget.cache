@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KIlKWP4jyQjn+HnfFT1izmr5k4n4Hltp9xf2A8cV/yxZz8PVuVaWJNTgdXR7DhTDBVBcz3Q6Te+IiDDVvRmgnA==",
+  "dgSpecHash": "MtuWqNs1yYCM+g28kLlKTWRKtbruKAapKotW1RSLBkVC39u/O5n5y9sgaQamGitVxbjZG1qnD42N0SAW0PzT2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei\\Desktop\\HDD repo new\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
+  "projectFilePath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
