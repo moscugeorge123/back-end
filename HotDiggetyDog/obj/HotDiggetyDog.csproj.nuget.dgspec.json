@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {}
+    "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
         "projectName": "HotDiggetyDog",
-        "projectPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\HotDiggetyDog\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\HotDiggetyDog.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\HotDiggetyDog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
