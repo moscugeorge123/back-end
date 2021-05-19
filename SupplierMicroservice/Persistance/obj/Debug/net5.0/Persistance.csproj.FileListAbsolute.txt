@@ -66,3 +66,20 @@ C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\Persistance\o
 C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\ref\Persistance.dll
 C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.pdb
 C:\Users\Andrei\Desktop\HDD repo new\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.csproj.AssemblyReference.cache
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Persistance.deps.json
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Persistance.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\ref\Persistance.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Persistance.pdb
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Application.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Domain.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Application.pdb
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\bin\Debug\net5.0\Domain.pdb
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.csprojAssemblyReference.cache
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.AssemblyInfoInputs.cache
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.AssemblyInfo.cs
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.csproj.CoreCompileInputs.cache
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.csproj.CopyComplete
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\ref\Persistance.dll
+D:\.net\AuthMicroservice\back-end\SupplierMicroservice\Persistance\obj\Debug\net5.0\Persistance.pdb

@@ -1,6 +1,7 @@
-﻿using HotDiggetyDog.Entities;
+﻿
+using HotDiggetyDog.Entities;
 using Microsoft.EntityFrameworkCore;
-
+using System.Threading.Tasks;
 #nullable disable
 
 namespace HotDiggetyDog.Data
@@ -23,6 +24,7 @@ namespace HotDiggetyDog.Data
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseNpgsql("Host=ec2-176-34-123-50.eu-west-1.compute.amazonaws.com;Database=d86382kqsqn974;Username=yyerfypaztckdd;Password=f15cc1cbf9526a84a52cf3542198edb1619877e894034c6e4b821cecb1a5728d;sslmode=Require;Trust Server Certificate=true");
+                //optionsBuilder.UseSqlite("Data Source=D:\\.net\\AuthMicroservice\\back-end\\BuyerMicroservice\\BuyerMicroservice\\hotdogapp.db");
             }
         }
 

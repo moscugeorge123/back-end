@@ -615,3 +615,5 @@ D:\.net\AuthMicroservice\back-end\AuthMicroservice\obj\Debug\net5.0\HotDiggetyDo
 D:\.net\AuthMicroservice\back-end\AuthMicroservice\obj\Debug\net5.0\ref\HotDiggetyDog.dll
 D:\.net\AuthMicroservice\back-end\AuthMicroservice\obj\Debug\net5.0\HotDiggetyDog.pdb
 D:\.net\AuthMicroservice\back-end\AuthMicroservice\obj\Debug\net5.0\HotDiggetyDog.genruntimeconfig.cache
+D:\.net\AuthMicroservice\back-end\AuthMicroservice\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\.net\AuthMicroservice\back-end\AuthMicroservice\bin\Debug\net5.0\SQLitePCLRaw.core.dll

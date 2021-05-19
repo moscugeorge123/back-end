@@ -16,6 +16,64 @@ namespace BuyerMicroservice.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.5");
 
+            modelBuilder.Entity("BuyerMicroservice.Entities.IngredientFromProductProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("IngredientsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IngredientsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("IngredientFromProductProducts");
+                });
+
+            modelBuilder.Entity("BuyerMicroservice.Entities.IngredientsFromProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Ingredients");
+                });
+
+            modelBuilder.Entity("BuyerMicroservice.Entities.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Discount")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("REAL");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("BuyerMicroservice.Entities.SalesHistory", b =>
                 {
                     b.Property<int>("Id")
@@ -63,6 +121,142 @@ namespace BuyerMicroservice.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ShoppingCarts");
+                });
+
+            modelBuilder.Entity("Domain.Entities.IngredientFromShopShop", b =>
+                {
+                    b.Property<int>("IngredientsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ShopsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("IngredientsId", "ShopsId");
+
+                    b.HasIndex(new[] { "ShopsId" }, "IX_IngredientFromShopShop_ShopsId");
+
+                    b.ToTable("IngredientFromShopShop");
+                });
+
+            modelBuilder.Entity("Domain.Entities.IngredientsFromShop", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("REAL");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IngredientsFromShop");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Shop", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double>("LocationX")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("LocationY")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Shops");
+                });
+
+            modelBuilder.Entity("HotDiggetyDog.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("BuyerMicroservice.Entities.IngredientFromProductProduct", b =>
+                {
+                    b.HasOne("BuyerMicroservice.Entities.IngredientsFromProduct", "Ingredients")
+                        .WithMany("IngredientFromProductProducts")
+                        .HasForeignKey("IngredientsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BuyerMicroservice.Entities.Product", "Products")
+                        .WithMany("IngredientFromProductProducts")
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredients");
+
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Domain.Entities.IngredientFromShopShop", b =>
+                {
+                    b.HasOne("Domain.Entities.IngredientsFromShop", "Ingredients")
+                        .WithMany("IngredientFromShopShops")
+                        .HasForeignKey("IngredientsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Shop", "Shops")
+                        .WithMany("IngredientFromShopShops")
+                        .HasForeignKey("ShopsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredients");
+
+                    b.Navigation("Shops");
+                });
+
+            modelBuilder.Entity("BuyerMicroservice.Entities.IngredientsFromProduct", b =>
+                {
+                    b.Navigation("IngredientFromProductProducts");
+                });
+
+            modelBuilder.Entity("BuyerMicroservice.Entities.Product", b =>
+                {
+                    b.Navigation("IngredientFromProductProducts");
+                });
+
+            modelBuilder.Entity("Domain.Entities.IngredientsFromShop", b =>
+                {
+                    b.Navigation("IngredientFromShopShops");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Shop", b =>
+                {
+                    b.Navigation("IngredientFromShopShops");
                 });
 #pragma warning restore 612, 618
         }

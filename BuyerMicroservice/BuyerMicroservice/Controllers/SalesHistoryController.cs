@@ -1,6 +1,7 @@
 ﻿using BuyerMicroservice.Context;
 using BuyerMicroservice.DTOs;
 using BuyerMicroservice.Entities;
+using BuyerMicroservice.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,13 +14,21 @@ namespace BuyerMicroservice.Controllers
     public class SalesHistoryController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly RecommandationService recommandationService;
         public SalesHistoryController(DataContext context) 
         {
             _context = context;
+            this.recommandationService = new RecommandationService(context);
+        }
+        [HttpGet("/api/recommendations")]
+        public List<int> RecommendProducts(Guid Id)
+        {
+            return recommandationService.Recommendation(Id);
         }
         [HttpPost]
         public async Task<ActionResult> Add(AcquisitionDto acquisition)
         {
+
             var cart = _context.ShoppingCarts.Where(cart => cart.UserId == acquisition.UserId).ToList();
             _context.ShoppingCarts.RemoveRange(cart);
             foreach(var item in cart)

@@ -1,5 +1,6 @@
 ﻿using BuyerMicroservice.Context;
 using BuyerMicroservice.Entities;
+using BuyerMicroservice.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,12 @@ namespace BuyerMicroservice.Controllers
     public class ShoppingCartController : ControllerBase
     {
         private readonly DataContext _context;
+       
+
         public ShoppingCartController(DataContext context)
         {
             _context = context;
+  
         }
         [HttpGet("{id}")]
         public ActionResult<IEnumerable<ShoppingCart>> Get(Guid id)

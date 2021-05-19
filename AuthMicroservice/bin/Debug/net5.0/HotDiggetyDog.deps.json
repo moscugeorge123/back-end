@@ -39,6 +39,7 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.5",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.Bcl.Async": "1.0.168",
+          "Microsoft.Data.Sqlite.Core": "6.0.0-preview.1.21102.2",
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Analyzers": "5.0.5",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
@@ -233,7 +234,7 @@
           "System.Linq.Expressions": "5.0.0.0",
           "System.Linq.Parallel": "5.0.0.0",
           "System.Linq.Queryable": "5.0.0.0",
-          "System.Memory": "5.0.0.0",
+          "System.Memory.Reference": "5.0.0.0",
           "System.Net": "4.0.0.0",
           "System.Net.Http": "5.0.0.0",
           "System.Net.Http.Json": "5.0.0.0",
@@ -493,6 +494,20 @@
       },
       "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Data.Sqlite.Core/6.0.0-preview.1.21102.2": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.5-pre20210119130047"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10202"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Data.Sqlite.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.5",
@@ -753,6 +768,20 @@
           }
         }
       },
+      "SQLitePCLRaw.core/2.0.5-pre20210119130047": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.5.1114",
+            "fileVersion": "2.0.5.1114"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.1.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -828,6 +857,7 @@
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
+      "System.Memory/4.5.3": {},
       "System.Reflection.Emit/4.7.0": {},
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "System.Security.Cryptography.Cng/4.5.0": {},
@@ -1929,7 +1959,7 @@
         },
         "compileOnly": true
       },
-      "System.Memory/5.0.0.0": {
+      "System.Memory.Reference/5.0.0.0": {
         "compile": {
           "System.Memory.dll": {}
         },
@@ -2609,6 +2639,13 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
+    "Microsoft.Data.Sqlite.Core/6.0.0-preview.1.21102.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Z+9/Z8LdX+kue57q5nWH0/gzLGBZFY0mZQAU8STQ2KoVoOWNCTDttchePZ1WmvDTatTxC40D5k7EtdVgBZgvQ==",
+      "path": "microsoft.data.sqlite.core/6.0.0-preview.1.21102.2",
+      "hashPath": "microsoft.data.sqlite.core.6.0.0-preview.1.21102.2.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/5.0.5": {
       "type": "package",
       "serviceable": true,
@@ -2784,6 +2821,13 @@
       "path": "sqlite/3.13.0",
       "hashPath": "sqlite.3.13.0.nupkg.sha512"
     },
+    "SQLitePCLRaw.core/2.0.5-pre20210119130047": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jviKUjAh1xIeOf+mkhIeyIa7jF2PT/5njzWgipikdSzZsp5AX4UrGh5KWPj8etBq6dR2l+7jHmiFWPxnEwMHHw==",
+      "path": "sqlitepclraw.core/2.0.5-pre20210119130047",
+      "hashPath": "sqlitepclraw.core.2.0.5-pre20210119130047.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.1.2": {
       "type": "package",
       "serviceable": true,
@@ -2839,6 +2883,13 @@
       "sha512": "sha512-C+Q5ORsFycRkRuvy/Xd0Pv5xVpmWSAvQYZAGs7VQogmkqlLhvfZXTgBIlHqC3cxkstSoLJAYx6xZB7foQ2y5eg==",
       "path": "system.identitymodel.tokens.jwt/6.10.0",
       "hashPath": "system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "System.Reflection.Emit/4.7.0": {
       "type": "package",
@@ -3776,7 +3827,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Memory/5.0.0.0": {
+    "System.Memory.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

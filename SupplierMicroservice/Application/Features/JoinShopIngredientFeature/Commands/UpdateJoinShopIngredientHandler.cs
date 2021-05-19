@@ -50,7 +50,7 @@ namespace Application.Features.JoinShopIngredientFeature.Commands
             };*/
             relation.Quantity = request.Quantity;
             context.JoinIngredientShop.Update(relation);
->>>>>>> dab5d3eaf2c57bd876b0eb2108be2a1a5736d0f1:SupplierMicroservice/Application/Features/JoinShopIngredientFeature/Commands/UpdateJoinShopIngredientHandler.cs
+
             await context.SaveChangesAsync();
             return relation;
 

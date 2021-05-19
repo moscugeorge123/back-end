@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IR7Uu+FoB8D6PN17DWkeiBt/bHAvHfPq0w4ScceqPalZSrKbIpyR5umEnVi52ZfvzEK97uR3b9uCs3ceXYgUqA==",
+  "dgSpecHash": "WHPvsiuOcbfwxZ/rr25OUftiN3zNKAQ3AUiYbeA53G+ASxrX7TT0lMSqkWerhzq5GqKRnevII02BhlWTtM5OyA==",
   "success": true,
   "projectFilePath": "D:\\.net\\AuthMicroservice\\back-end\\AuthMicroservice\\HotDiggetyDog.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0-preview.1.21102.2\\microsoft.data.sqlite.core.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
@@ -41,6 +42,7 @@
     "C:\\Users\\stefa\\.nuget\\packages\\npgsql\\5.0.4\\npgsql.5.0.4.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.5\\npgsql.entityframeworkcore.postgresql.5.0.5.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\sqlitepclraw.core\\2.0.5-pre20210119130047\\sqlitepclraw.core.2.0.5-pre20210119130047.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.2\\swashbuckle.aspnetcore.6.1.2.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.2\\swashbuckle.aspnetcore.swagger.6.1.2.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.2\\swashbuckle.aspnetcore.swaggergen.6.1.2.nupkg.sha512",
@@ -49,6 +51,7 @@
     "C:\\Users\\stefa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
