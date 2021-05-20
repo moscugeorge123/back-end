@@ -48,6 +48,14 @@ namespace BuyerMicroservice.Controllers
             await _context.SaveChangesAsync();
             return NoContent();
         }
+        [HttpDelete("{userId}/{productId}")]
+        public async Task<ActionResult> Delete(Guid userId, int productId)
+        {
+            var product = _context.ShoppingCarts.Where(cart => cart.UserId == userId && cart.ProductId == productId).FirstOrDefault();
+            _context.Remove(product);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
     }
 }
 
