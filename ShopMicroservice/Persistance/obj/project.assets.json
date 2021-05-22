@@ -1319,19 +1319,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {}
+    "C:\\Users\\gceof\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj",
+      "projectUniqueName": "D:\\GitHub\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj",
       "projectName": "Persistance",
-      "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\ShopMicroservice\\Persistance\\obj\\",
+      "projectPath": "D:\\GitHub\\back-end\\ShopMicroservice\\Persistance\\Persistance.csproj",
+      "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\back-end\\ShopMicroservice\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1345,8 +1345,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\.net\\AuthMicroservice\\back-end\\ShopMicroservice\\Application\\Application.csproj": {
-              "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ShopMicroservice\\Application\\Application.csproj"
+            "D:\\GitHub\\back-end\\ShopMicroservice\\Application\\Application.csproj": {
+              "projectPath": "D:\\GitHub\\back-end\\ShopMicroservice\\Application\\Application.csproj"
             }
           }
         }
@@ -1385,7 +1385,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

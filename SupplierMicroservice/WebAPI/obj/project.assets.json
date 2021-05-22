@@ -1617,19 +1617,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {}
+    "C:\\Users\\gceof\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\GitHub\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\WebAPI\\obj\\",
+      "projectPath": "D:\\GitHub\\back-end\\SupplierMicroservice\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\back-end\\SupplierMicroservice\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1643,11 +1643,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
-              "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Application\\Application.csproj"
+            "D:\\GitHub\\back-end\\SupplierMicroservice\\Application\\Application.csproj": {
+              "projectPath": "D:\\GitHub\\back-end\\SupplierMicroservice\\Application\\Application.csproj"
             },
-            "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {
-              "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj"
+            "D:\\GitHub\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj": {
+              "projectPath": "D:\\GitHub\\back-end\\SupplierMicroservice\\Persistance\\Persistance.csproj"
             }
           }
         }
@@ -1703,7 +1703,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

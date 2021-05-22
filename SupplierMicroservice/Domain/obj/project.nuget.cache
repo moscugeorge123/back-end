@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PJee0N1W4tatWtozw6/UGxqENjxBczDiy4NTyF9n4/h7Tw5u4sOpGbxQjkMkXlEhvF800l8SEUE6cGtoV3AatA==",
+  "dgSpecHash": "9CMHlS0OMFZYHbnwvme9U1dGxGHK0nNX1jUnT5MVbYco55TVsLrtjrut/bzldP3zeEh9iwgQb5Zxx/oZ7LpZgw==",
   "success": true,
-  "projectFilePath": "D:\\.net\\AuthMicroservice\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\GitHub\\back-end\\SupplierMicroservice\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
