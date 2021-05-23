@@ -41,8 +41,15 @@ namespace HotDiggetyDog.Controllers
         {
             return await context.Users.ToListAsync();
         }
+        //[Authorize]
+        [HttpPut]
+        public async Task<ActionResult> Update(Guid id,UpdateUserModel newUserModel)
+        {
+           
+            return (Ok(_userService.UpdateUser(id, newUserModel)));
+        }
 
-        [Authorize]
+       // [Authorize]
         [HttpGet("{Id}")]
         public async Task<ActionResult<User>>Get(Guid Id)
         {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj": {}
+    "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\Domain.csproj"
+              "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Domain\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
-                "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Application\\Application.csproj"
+              "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\Application.csproj": {
+                "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Application\\Application.csproj"
               }
             }
           }
@@ -204,28 +204,25 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj": {
+    "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\gceof\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\back-end\\ProductMicroservice\\TestProject1\\obj\\",
+        "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gceof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,8 +236,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\GitHub\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj"
+              "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\.net\\AuthMicroservice\\back-end\\ProductMicroservice\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -299,14 +296,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,14 +9,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HotDiggetyDog.Services
 {
-    public interface IUserService
-    {
-        AuthenticateResponse Authenticate(AuthenticateRequest model);
-        User GetById(Guid id);
-    }
+    
     public class UserService:IUserService
     {
         private readonly DataContext _dataContext;
@@ -57,6 +54,21 @@ namespace HotDiggetyDog.Services
         public User GetById(Guid id)
         {
             return _dataContext.Users.Find(id);
+        }
+        public  Guid UpdateUser(Guid id, UpdateUserModel newUserModel)
+        {
+            var user = _dataContext.Users.Find(id);
+            if (user == null)
+            {
+                throw new Exception("User doesn't exist!");
+            }
+            user.Email = newUserModel.Email;
+            user.Username = newUserModel.Username;
+            user.Role = newUserModel.Role;
+             _dataContext.Update(user);
+             _dataContext.SaveChanges();
+            return user.Id;
+
         }
 
 
