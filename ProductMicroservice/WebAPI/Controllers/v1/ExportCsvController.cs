@@ -58,7 +58,7 @@ namespace WebAPI.Controllers.v1
 
 
             }
-
+            result.Append("Id, Name, Description, Price, Discount\n");
             foreach (GetProductDto p in listProducts)
             {
                 result.Append(String.Format("{0}, {1}, {2}, {3}, {4}\n", p.Id, p.Name, p.Description, p.Price, p.Discount));
